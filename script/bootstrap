@@ -118,12 +118,14 @@ install_prezto () {
 
   if [ -d "${ZDOTDIR:-$HOME}/.zprezto" ]
   then
-    cd "${ZDOTDIR:-$HOME}/.zprezto" && git pull && git submodule update --init --recursive > /tmp/update-prezto 2>&1
+    cd "${ZDOTDIR:-$HOME}/.zprezto" && git pull > /dev/null 2>&1 && git submodule update --init --recursive > /dev/null 2>&1
     success "updated prezto"
   else
-    git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto" > /tmp/install-prezto 2>&1
+    git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto" > /dev/null 2>&1
     success "installed prezto"
   fi
+
+  cd $DOTFILES_ROOT
 }
 
 install_dotfiles
