@@ -21,7 +21,6 @@ setopt EXTENDED_HISTORY # add timestamps to history
 setopt PROMPT_SUBST
 setopt CORRECT
 setopt COMPLETE_IN_WORD
-setopt IGNORE_EOF
 
 setopt APPEND_HISTORY # adds history
 setopt INC_APPEND_HISTORY SHARE_HISTORY  # adds history incrementally and share it across sessions
@@ -55,10 +54,7 @@ setopt RM_STAR_WAIT
 
 # use magic (this is default, but it can't hurt!)
 setopt ZLE
-
 setopt NO_HUP
-
-setopt IGNORE_EOF
 
 # If I could disable Ctrl-s completely I would!
 setopt NO_FLOW_CONTROL
