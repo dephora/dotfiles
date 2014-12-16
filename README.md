@@ -8,7 +8,7 @@ and adds some of my own niceties, including prezto and fish-style autocompletion
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/Veraticus/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
