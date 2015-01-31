@@ -111,6 +111,8 @@ install_dotfiles () {
     dst="$HOME/.$(basename "${src%.*}")"
     link_file "$src" "$dst"
   done
+
+  success 'installed dotfiles'
 }
 
 install_prezto () {
@@ -124,6 +126,8 @@ install_prezto () {
     git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto" > /dev/null 2>&1
     success "installed prezto"
   fi
+
+  success 'installed prezto'
 
   cd $DOTFILES_ROOT
 }
