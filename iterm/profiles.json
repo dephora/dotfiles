@@ -3,7 +3,7 @@
 {
   "Badge Text" : "\\(session.username)@\\(session.hostname):\\(session.path)",
   "Thin Strokes" : 1,
-  "Working Directory" : "\/Users\/joshsymonds",
+  "Working Directory" : "\/Users\/matt",
   "Prompt Before Closing 2" : 0,
   "Selected Text Color" : {
     "Green Component" : 0,
@@ -427,7 +427,7 @@
 {
   "Badge Text" : "\\(session.username)@\\(session.hostname):\\(session.path)",
   "Thin Strokes" : 1,
-  "Working Directory" : "\/Users\/joshsymonds",
+  "Working Directory" : "\/Users\/matt",
   "Prompt Before Closing 2" : 0,
   "Selected Text Color" : {
     "Green Component" : 0,

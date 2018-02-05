@@ -3,12 +3,17 @@
 This takes Zach Holman's [excellent dotfiles](https://github.com/holman/dotfiles)
 and adds some of my own niceties, including prezto and fish-style autocompletion.
 
+# Matt's mods
+
+- Add / modify brew, cask, mas
+
+
 ## install
 
 Run this:
 
 ```sh
-git clone https://github.com/Veraticus/dotfiles.git ~/.dotfiles
+git clone https://github.com/dephora/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
