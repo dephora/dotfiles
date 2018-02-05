@@ -67,26 +67,33 @@ brew tap caskroom/cask
 brew tap caskroom/fonts
 
 cask=(
+  # Dev -------------------------------
   caffeine
   charles
   cheatsheet
   cyberduck
   dash
-  font-fira-code
   iterm2
-  lingo
   paw
   postgres
   postico
-  sketch
-  slack
   sourcetree
   visual-studio-code
-  xmind  
+  # Design -------------------------------
+  lingo
+  sketch
+  sketch-toolbox
+  # Fonts --------------------------------
+  font-fira-code
+  font-source-code-pro
+  font-source-sans-pro
+  font-source-serif-pro
+  # Browsers -----------------------------
   firefox
   google-chrome
   google-chrome-canary
   opera
+  # Misc ---------------------------------
   appcleaner
   calibre
   discord
@@ -95,12 +102,11 @@ cask=(
   hammerspoon
   macdown
   skim
+  slack
   spectacle
   spotify
-  vox
-  font-source-code-pro
-  font-source-sans-pro
-  font-source-serif-pro
+  xmind  
+  vox  
 )
 
 brew cask install "${cask[@]}"

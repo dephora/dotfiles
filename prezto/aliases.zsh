@@ -1,5 +1,15 @@
-# Aliases
-alias rake="bundle exec rake"
-alias cap="bundle exec cap"
-alias knife="bundle exec knife"
-alias librarian-chef="bundle exec librarian-chef"
+
+# Apps
+alias  c="code ."
+
+# Elixir / Phoenix
+alias mps="mix phx.server"
+
+# Folders
+alias p="~/Projects"
+alias pelx="~/Projects/elixir"
+alias pelm="~/Projects/elm"
+alias pjs="~/Projects/javascript"
+alias cyto="~/Projects/cyto"
+alias work="~/Work"
+
