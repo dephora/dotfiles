@@ -54,4 +54,5 @@ dockutil --no-restart --add "/Applications/Whatsapp.app"
 
 # dockutil --no-restart --add '~/Downloads' --view grid --display folder --allhomes
 
+
 killall Dock
