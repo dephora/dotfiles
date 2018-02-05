@@ -105,8 +105,8 @@ cask=(
   slack
   spectacle
   spotify
-  xmind  
   vox  
+  xmind
 )
 
 brew cask install "${cask[@]}"
