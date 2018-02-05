@@ -98,7 +98,6 @@ cask=(
   calibre
   discord
   dropbox
-  glimmerblocker
   hammerspoon
   macdown
   skim
@@ -112,7 +111,7 @@ cask=(
 brew cask install "${cask[@]}"
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
+#brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
 
 # Link Hammerspoon config
 if [ ! -d ~/.hammerspoon ]; then ln -sfv "$DOTFILES_DIR/etc/hammerspoon/" ~/.hammerspoon; fi
@@ -143,7 +142,7 @@ mas=(
   1176895641    # Spark
   1147396723    # WhatsApp
   410628904     # Wunderlist
-  497799835     # Xcode 
+  #497799835     # Xcode 
 )
 
 mas install "${mas[@]}"
