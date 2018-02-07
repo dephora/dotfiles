@@ -52,6 +52,8 @@ apps=(
 
 brew install "${apps[@]}"
 
+ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
+
 ###############################################################################
 # END HOMEBREW NATIVE                                                         #
 ###############################################################################
@@ -99,6 +101,7 @@ cask=(
   discord
   dropbox
   hammerspoon
+  iina
   macdown
   skim
   slack
