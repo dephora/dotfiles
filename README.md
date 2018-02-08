@@ -8,10 +8,9 @@ and adds some of my own niceties, including prezto and fish-style autocompletion
 - Add / modify brew, cask, mas
 
 ## TODO
-- Aliases for elixir, ember, etc.
+
 - Mackup
 - Hammerspoon
-- Themes for prezto, iterm, etc
 
 ## Install
 

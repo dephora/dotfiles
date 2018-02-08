@@ -28,8 +28,9 @@ apps=(
   gnu-sed --with-default-names
   grc
   grep --with-default-names
-  hub
+  htop
   httpie
+  hub
   imagemagick
   jq
   mackup
