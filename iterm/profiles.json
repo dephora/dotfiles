@@ -787,11 +787,11 @@
     "Right Option Key Sends" : 0,
     "Use Non-ASCII Font" : false,
     "Ansi 6 Color" : {
-      "Red Component" : 0.70921188592910767,
+      "Red Component" : 0.95241349935531616,
       "Color Space" : "sRGB",
-      "Blue Component" : 0.99736875295639038,
+      "Blue Component" : 1,
       "Alpha Component" : 1,
-      "Green Component" : 0.95072823762893677
+      "Green Component" : 0.50879073143005371
     },
     "Normal Font" : "SourceCodePro-Medium 14",
     "Ansi 3 Color" : {
