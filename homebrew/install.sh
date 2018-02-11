@@ -133,8 +133,6 @@ if [ ! -d ~/.hammerspoon ]; then ln -sfv "$DOTFILES_DIR/etc/hammerspoon/" ~/.ham
 mas=(
   824171161     # Affinity Designer
   641027709     # Color Picker
-  552383089     # Dashlane
-  1127253508    # DrUnarchiver
   525742250     # JPEGmini Lite
   409183694     # Keynote
   526298438     # Lightshot Screenshot
@@ -143,10 +141,9 @@ mas=(
   409201541     # Pages 
   425955336     # Skitch
   803453959     # Slack
-  1176895641    # Spark
   1147396723    # WhatsApp
   410628904     # Wunderlist
-  #497799835     # Xcode 
+  #497799835    # Xcode 
 )
 
 mas install "${mas[@]}"

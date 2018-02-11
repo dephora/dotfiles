@@ -23,8 +23,12 @@ alias al="vi ~/.dotfiles/prezto/aliases.zsh"
 
 # Ember
 alias eg="ember g "
-alias egr="ember g route"
-alias egc="ember g component"
+alias egr="ember g route "
+alias egc="ember g component "
+alias ei="ember install "
+alias et="ember test "
+alias ed="ember destroy "
+alias es="ember server"
 
 
 # Elixir / Phoenix
