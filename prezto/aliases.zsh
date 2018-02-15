@@ -35,7 +35,7 @@ alias es="ember server"
 alias mps="mix phx.server"
 
 
-# npm
+# NPM
 alias ni="npm install"
 alias nu="npm uninstall"
 alias nup="npm update"
@@ -55,8 +55,7 @@ done
 unset METHOD
 
 
-# Miscellaneous
-
+# Misc
 alias vdots="code ~/.dotfiles"
 alias hosts="sudo $EDITOR /etc/hosts"
 alias his="historie"

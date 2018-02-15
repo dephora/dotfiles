@@ -39,6 +39,7 @@ apps=(
   pandoc
   peco
   psgrep
+  pwgen
   readline
   roundup
   shellcheck

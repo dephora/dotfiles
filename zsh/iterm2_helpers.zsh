@@ -50,26 +50,26 @@ function titlepwd() {
 }
 
 # Snazzy Tabs
-function tab_snaz_red { title "$1"; tab_color 255 92 87; }
-function tab_snaz_green { title "$1"; tab_color 92 247 142; }
-function tab_snaz_yellow { title "$1"; tab_color 243 249 157; }
-function tab_snaz_blue { title "$1"; tab_color 87 199 255; }
-function tab_snaz_dblue { title "$1"; tab_color 40 42 54; }
-function tab_snaz_lblue { title "$1"; tab_color 154 237 254; }
-function tab_snaz_pink { title "$1"; tab_color 255 106 193; }
+function tab_snaz_red()    { title "$1"; tab_color 255  92 87;  }
+function tab_snaz_green()  { title "$1"; tab_color  92 247 142; }
+function tab_snaz_yellow() { title "$1"; tab_color 243 249 157; }
+function tab_snaz_blue()   { title "$1"; tab_color  87 199 255; }
+function tab_snaz_dblue()  { title "$1"; tab_color  40  42 54;  }
+function tab_snaz_lblue()  { title "$1"; tab_color 154 237 254; }
+function tab_snaz_pink()   { title "$1"; tab_color 255 106 193; }
 
 
 # Drac Tabs
-function tab_drac_red { title "$1"; tab_color 255 110 103; }
-function tab_drac_green { title "$1"; tab_color 92 246 141; }
-function tab_drac_yellow { title "$1"; tab_color 244 248 157; }
-function tab_drac_purple { title "$1"; tab_color 202 169 251; }
-function tab_drac_lblue { title "$1"; tab_color 154 237 254; }
-function tab_drac_dblue { title "$1"; tab_color 40 42 54; }
-function tab_drac_dblue2 { title "$1"; tab_color 33 34 44; }
-function tab_drac_dgray { title "$1"; tab_color 52 55 70; }
-function tab_drac_lgray { title "$1"; tab_color 98 111 136; }
-function tab_drac_pink { title "$1"; tab_color 255 146 209; }
+function tab_drac_red()    { title "$1"; tab_color 255 110 103; }
+function tab_drac_green()  { title "$1"; tab_color  92 246 141; }
+function tab_drac_yellow() { title "$1"; tab_color 244 248 157; }
+function tab_drac_purple() { title "$1"; tab_color 202 169 251; }
+function tab_drac_lblue()  { title "$1"; tab_color 154 237 254; }
+function tab_drac_dblue()  { title "$1"; tab_color  40  42 54;  }
+function tab_drac_dblue2() { title "$1"; tab_color  33  34 44;  }
+function tab_drac_dgray()  { title "$1"; tab_color  52  55 70;  }
+function tab_drac_lgray()  { title "$1"; tab_color  98 111 136; }
+function tab_drac_pink()   { title "$1"; tab_color 255 146 209; }
 
 
 # Overridden colors
@@ -84,3 +84,11 @@ function tab_color() {
   echo -n -e "\033]6;1;bg;green;brightness;$2\a"
   echo -n -e "\033]6;1;bg;blue;brightness;$3\a"
 }
+
+function gpw() { pwgen -svcny $1 1 | pbcopy | echo "Password has been copied to clipboard"
+}
+
+function gpwb() { pwgen -svcn $1 1 | pbcopy | echo "Password has been copied to clipboard"
+}
+
+function gpwcol() { pwgen -svcny $1 5 }
