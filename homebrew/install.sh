@@ -105,6 +105,7 @@ cask=(
   hammerspoon
   iina
   macdown
+  raindropio
   skim
   slack
   spectacle
