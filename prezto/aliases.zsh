@@ -8,12 +8,12 @@ alias pk="kill -9 " # kill by PID
 alias docs="~/Documents"
 alias dots="~/.dotfiles"
 alias dl="~/Downloads"
-alias p="~/Projects"
-alias pelx="~/Projects/elixir"
-alias pelm="~/Projects/elm"
-alias pjs="~/Projects/javascript"
-alias cyto="~/Projects/cyto"
-alias work="~/Work"
+alias p="~/Dev/Projects/Current"
+alias pelx="~/Dev/Projects/Current/elixir"
+alias pelm="~/Dev/Projects/Current/elm"
+alias pjs="~/Dev/Projects/Current/javascript"
+alias cyto="~/Dev/Projects/Current/cyto"
+alias work="~/Documents/Work"
 
 
 # Apps
@@ -22,6 +22,7 @@ alias al="vi ~/.dotfiles/prezto/aliases.zsh"
 
 
 # Ember
+alias e="ember "
 alias eg="ember g "
 alias egr="ember g route "
 alias egc="ember g component "
