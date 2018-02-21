@@ -31,7 +31,7 @@ apps=(
   htop
   httpie
   hub
-  imagemagick
+  imagemagick --with-libtiff
   jq
   mackup
   mas
@@ -144,7 +144,6 @@ mas=(
   803453959     # Slack
   1147396723    # WhatsApp
   410628904     # Wunderlist
-  #497799835    # Xcode 
 )
 
 mas install "${mas[@]}"
