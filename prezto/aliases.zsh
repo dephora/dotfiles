@@ -8,17 +8,17 @@ alias pk="kill -9 " # kill by PID
 alias docs="~/Documents"
 alias dots="~/.dotfiles"
 alias dl="~/Downloads"
-alias p="~/Dev/Projects/Current"
-alias pelx="~/Dev/Projects/Current/elixir"
-alias pelm="~/Dev/Projects/Current/elm"
-alias pjs="~/Dev/Projects/Current/javascript"
-alias cyto="~/Dev/Projects/Current/cyto"
+alias co="~/Code"
+alias p="~/Code/Projects/Current"
+alias pelx="~/Code/Projects/Current/elixir"
+alias pelm="~/Code/Projects/Current/elm"
+alias pjs="~/Code/Projects/Current/javascript"
+alias cyto="~/Code/Projects/Current/cyto"
 alias work="~/Documents/Work"
 
 
 # Apps
 alias c="code ."
-alias al="vi ~/.dotfiles/prezto/aliases.zsh"
 
 
 # Ember
@@ -37,11 +37,16 @@ alias mps="mix phx.server"
 
 
 # NPM
-alias ni="npm install"
-alias nu="npm uninstall"
+alias ni="npm install "
+alias nu="npm uninstall "
 alias nup="npm update"
 alias nri="rm -r node_modules && npm install"
 alias ncd="npm-check -su"
+
+# Yarn
+alias ya="yarn add "
+alias yr="yarn remove "
+alias yi="yarn install "
 
 
 # Network
@@ -57,9 +62,10 @@ unset METHOD
 
 
 # Misc
+alias al="vi ~/.dotfiles/prezto/aliases.zsh"
 alias vdots="code ~/.dotfiles"
 alias hosts="sudo $EDITOR /etc/hosts"
-alias his="historie"
+alias his="history"
 alias quit="exit"
 alias week="date +%V"
-alias speedtest="wget -O /dev/null http://speed.transip.nl/100mb.bin"
+alias speedtest="wget -O /Code/null http://speed.transip.nl/100mb.bin"
