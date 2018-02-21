@@ -28,9 +28,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Disable the sound effects on boot
 # sudo nvram SystemAudioVolume=" "
 
-# Adjust the sound effects on boot volume
-sudo nvram SystemAudioVolume=%26
-
 # Disable transparency in the menu bar and elsewhere on Yosemite
 # defaults write com.apple.universalaccess reduceTransparency -bool false
 
@@ -212,7 +209,7 @@ defaults write com.apple.screencapture location -string "${HOME}/Desktop/screens
 defaults write com.apple.screencapture type -string "png"
 
 # Disable shadow in screenshots
-defaults write com.apple.screencapture disable-shadow -bool true
+# defaults write com.apple.screencapture disable-shadow -bool true
 
 # Enable subpixel font rendering on non-Apple LCDs
 # Reference: https://github.com/kevinSuttle/macOS-Defaults/issues/17#issuecomment-266633501
@@ -404,8 +401,8 @@ defaults write com.apple.dock showhidden -bool true
 find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
 
 # Add iOS & Watch Simulator to Launchpad
-sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
-sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app" "/Applications/Simulator (Watch).app"
+# sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
+# sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app" "/Applications/Simulator (Watch).app"
 
 # Add a spacer to the left side of the Dock (where the applications are)
 #defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
@@ -462,7 +459,7 @@ defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
 
 # Hide Safari’s bookmarks bar by default
-defaults write com.apple.Safari ShowFavoritesBar -bool false
+# defaults write com.apple.Safari ShowFavoritesBar -bool false
 
 # Hide Safari’s sidebar in Top Sites
 defaults write com.apple.Safari ShowSidebarInTopSites -bool false
@@ -477,7 +474,7 @@ defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
 defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
 
 # Remove useless icons from Safari’s bookmarks bar
-defaults write com.apple.Safari ProxiesInBookmarksBar "()"
+# defaults write com.apple.Safari ProxiesInBookmarksBar "()"
 
 # Enable the Develop menu and the Web Inspector in Safari
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
@@ -489,6 +486,7 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # Enable continuous spellchecking
 defaults write com.apple.Safari WebContinuousSpellCheckingEnabled -bool true
+
 # Disable auto-correct
 defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
 
