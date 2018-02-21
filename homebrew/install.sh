@@ -25,13 +25,10 @@ apps=(
   fasd
   git
   git-extras
-  gnu-sed --with-default-names
   grc
-  grep --with-default-names
   htop
   httpie
   hub
-  imagemagick --with-libtiff
   jq
   mackup
   mas
@@ -53,7 +50,9 @@ apps=(
 )
 
 brew install "${apps[@]}"
-
+brew install imagemagick --with-libtiff
+brew install grep --with-default-names
+brew install gnu-sed --with-default-names
 ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
 
 ###############################################################################
@@ -116,10 +115,10 @@ cask=(
 brew cask install "${cask[@]}"
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
-#brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
 
 # Link Hammerspoon config
-if [ ! -d ~/.hammerspoon ]; then ln -sfv "$DOTFILES_DIR/etc/hammerspoon/" ~/.hammerspoon; fi
+#if [ ! -d ~/.hammerspoon ]; then ln -sfv "$DOTFILES_DIR/etc/hammerspoon/" ~/.hammerspoon; fi
 
 ###############################################################################
 # END CASK                                                                    #

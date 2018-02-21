@@ -5,7 +5,6 @@ dockutil --no-restart --remove all
 dockutil --no-restart --add "/Applications/App Store.app"
 dockutil --no-restart --add '' --type spacer --section apps --after 'App Store'
 
-dockutil --no-restart --add "/Applications/Spark.app"
 dockutil --no-restart --add "/Applications/Wunderlist.app"
 dockutil --no-restart --add "/Applications/Calendar.app"
 dockutil --no-restart --add '' --type spacer --section apps --after Calendar
@@ -32,7 +31,7 @@ dockutil --no-restart --add "/Applications/Charles.app"
 # dockutil --no-restart --add "/Applications/DB Browser for SQLite.app"
 dockutil --no-restart --add "/Applications/Dash.app"
 dockutil --no-restart --add "/Applications/iTerm.app"
-dockutil --no-restart --add "/Applications/Hyper.app"
+# dockutil --no-restart --add "/Applications/Hyper.app"
 dockutil --no-restart --add "/Applications/Visual Studio Code.app"
 dockutil --no-restart --add '' --type spacer --section apps --after 'Visual Studio Code'
 
