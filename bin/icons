@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# dot
+#
+# `icons` clears the icon cache for broken thumbnails in the dock
+# requires a reboot
+rm ~/Library/Preferences/com.apple.dock.plist
+rm ~/Library/Preferences/com.apple.dock.extra.plist
+

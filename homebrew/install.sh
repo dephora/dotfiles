@@ -53,6 +53,7 @@ brew install "${apps[@]}"
 brew install imagemagick --with-libtiff
 brew install grep --with-default-names
 brew install gnu-sed --with-default-names
+
 ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
 
 ###############################################################################

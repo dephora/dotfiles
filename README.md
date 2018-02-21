@@ -5,12 +5,8 @@ and adds some of my own niceties, including prezto and fish-style autocompletion
 
 # Matt's mods
 
-- Add / modify brew, cask, mas
+- Add / modify brew, cask, mas, aliases
 
-## TODO
-
-- Mackup
-- Hammerspoon
 
 ## Install
 
@@ -27,6 +23,7 @@ Clone with Git
 git clone https://github.com/dephora/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
+script/install
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.

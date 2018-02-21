@@ -341,7 +341,7 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
 # Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 24
+defaults write com.apple.dock tilesize -int 32
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "scale"
@@ -830,14 +830,10 @@ for app in "Activity Monitor" \
   "Messages" \
   "Opera" \
   "Photos" \
-  "Safari" \
-  "SizeUp" \
+  "Safari" \  
   "Spectacle" \
   "SystemUIServer" \
   "Terminal" \
-  "Transmission" \
-  "Tweetbot" \
-  "Twitter" \
   "iCal"; do
   killall "${app}" &> /dev/null
 done
