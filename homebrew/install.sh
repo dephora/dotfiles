@@ -33,7 +33,7 @@ apps=(
   hub
   jq
   mackup
-  mas
+  # mas
   mps-youtube
   mpv
   openssl
@@ -83,7 +83,7 @@ cask=(
   cyberduck
   dash
   # dbeaver-community
-  iterm2
+  # iterm2
   paw
   postgres
   postico
@@ -106,6 +106,7 @@ cask=(
   opera
   # Misc ---------------------------------
   appcleaner
+  avast-security
   calibre
   discord
   dropbox
@@ -139,22 +140,22 @@ if [ ! -d ~/.hammerspoon ]; then ln -sfv "$DOTFILES_ROOT/etc/hammerspoon/" ~/.ha
 # MAS                                                                         #
 ###############################################################################
 
-mas=(
-  824171161     # Affinity Designer
-  641027709     # Color Picker
-  525742250     # JPEGmini Lite
-  409183694     # Keynote
-  526298438     # Lightshot Screenshot
-  784801555     # Microsoft OneNote 
-  409203825     # Numbers 
-  409201541     # Pages 
-  425955336     # Skitch
-  803453959     # Slack
-  1147396723    # WhatsApp
-  410628904     # Wunderlist
-)
+# mas=(
+ # 824171161     # Affinity Designer
+ # 641027709     # Color Picker
+ # 525742250     # JPEGmini Lite
+ # 409183694     # Keynote
+ # 526298438     # Lightshot Screenshot
+ # 784801555     # Microsoft OneNote 
+ # 409203825     # Numbers 
+ # 409201541     # Pages 
+ # 425955336     # Skitch
+ # 803453959     # Slack
+ # 1147396723    # WhatsApp
+ # 410628904     # Wunderlist
+#)
 
-mas install "${mas[@]}"
+# mas install "${mas[@]}"
 
 ###############################################################################
 # END MAS                                                                     #
