@@ -7,6 +7,8 @@ then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+export DOTFILES_ROOT=$HOME/.dotfiles
+
 ###############################################################################
 # HOMEBREW NATIVE                                                             #
 ###############################################################################
@@ -32,6 +34,8 @@ apps=(
   jq
   mackup
   mas
+  mps-youtube
+  mpv
   openssl
   pandoc
   peco
@@ -50,11 +54,12 @@ apps=(
 )
 
 brew install "${apps[@]}"
+
 brew install imagemagick --with-libtiff
 brew install grep --with-default-names
 brew install gnu-sed --with-default-names
 
-ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
+ln -sfv "$DOTFILES_ROOT/etc/mackup/.mackup.cfg" ~
 
 ###############################################################################
 # END HOMEBREW NATIVE                                                         #
@@ -77,10 +82,12 @@ cask=(
   cheatsheet
   cyberduck
   dash
+  # dbeaver-community
   iterm2
   paw
   postgres
   postico
+  sequel-pro
   sourcetree
   visual-studio-code
   # Design -------------------------------
@@ -108,6 +115,7 @@ cask=(
   skim
   slack
   spectacle
+  spotifree
   spotify
   vox  
   xmind
@@ -119,7 +127,7 @@ brew cask install "${cask[@]}"
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
 
 # Link Hammerspoon config
-#if [ ! -d ~/.hammerspoon ]; then ln -sfv "$DOTFILES_DIR/etc/hammerspoon/" ~/.hammerspoon; fi
+if [ ! -d ~/.hammerspoon ]; then ln -sfv "$DOTFILES_ROOT/etc/hammerspoon/" ~/.hammerspoon; fi
 
 ###############################################################################
 # END CASK                                                                    #

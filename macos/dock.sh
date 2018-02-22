@@ -6,12 +6,14 @@ dockutil --no-restart --add "/Applications/App Store.app"
 dockutil --no-restart --add '' --type spacer --section apps --after 'App Store'
 
 dockutil --no-restart --add "/Applications/Wunderlist.app"
+dockutil --no-restart --add "/Applications/Notes.app"
 dockutil --no-restart --add "/Applications/Calendar.app"
 dockutil --no-restart --add '' --type spacer --section apps --after Calendar
 
-dockutil --no-restart --add "/Applications/iBooks.app"
 dockutil --no-restart --add "/Applications/Calibre.app"
 dockutil --no-restart --add "/Applications/Skim.app"
+dockutil --no-restart --add "/Applications/iBooks.app"
+dockutil --no-restart --add "/Applications/Macdown.app"
 dockutil --no-restart --add "/Applications/Microsoft Onenote.app"
 dockutil --no-restart --add "/Applications/Xmind.app"
 dockutil --no-restart --add '' --type spacer --section apps --after Xmind
@@ -47,7 +49,7 @@ dockutil --no-restart --add "/Applications/Spotify.app"
 dockutil --no-restart --add "/Applications/Iina.app"
 dockutil --no-restart --add '' --type spacer --section apps --after 'Iina'
 
-dockutil --no-restart --add "/Applications/Messages.app"
+# dockutil --no-restart --add "/Applications/Messages.app"
 dockutil --no-restart --add "/Applications/Discord.app"
 dockutil --no-restart --add "/Applications/Whatsapp.app"
 

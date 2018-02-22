@@ -33,7 +33,7 @@ alias es="ember server"
 
 
 # Elixir / Phoenix
-alias mps="mix phx.server"
+alias mphxs="mix phx.server"
 
 
 # NPM
