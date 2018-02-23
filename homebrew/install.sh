@@ -20,7 +20,7 @@ brew upgrade
 apps=(
   ack
   bats
-  battery
+  # battery
   coreutils
   diff-so-fancy
   dockutil
@@ -84,7 +84,7 @@ cask=(
   cyberduck
   dash
   # dbeaver-community
-  iterm2
+  # iterm2
   paw
   postgres
   postico  
@@ -100,7 +100,7 @@ cask=(
   font-fira-code
   font-fontawesome
   font-open-sans
-  font-raleway
+  # font-raleway
   font-roboto
   font-source-code-pro
   font-source-sans-pro
@@ -119,7 +119,7 @@ cask=(
   hammerspoon
   iina
   macdown
-  mactex
+  # mactex
   skim
   slack
   spectacle
@@ -140,33 +140,5 @@ if [ ! -d ~/.hammerspoon ]; then ln -sfv "$DOTFILES_ROOT/etc/hammerspoon/" ~/.ha
 ###############################################################################
 # END CASK                                                                    #
 ###############################################################################
-
-
-
-###############################################################################
-# MAS                                                                         #
-###############################################################################
-
-# mas=(
- # 824171161     # Affinity Designer
- # 641027709     # Color Picker
- # 525742250     # JPEGmini Lite
- # 409183694     # Keynote
- # 526298438     # Lightshot Screenshot
- # 784801555     # Microsoft OneNote 
- # 409203825     # Numbers 
- # 409201541     # Pages 
- # 425955336     # Skitch
- # 803453959     # Slack
- # 1147396723    # WhatsApp
- # 410628904     # Wunderlist
-#)
-
-# mas install "${mas[@]}"
-
-###############################################################################
-# END MAS                                                                     #
-###############################################################################
-
 
 exit 0

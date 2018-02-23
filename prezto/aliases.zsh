@@ -62,8 +62,9 @@ unset METHOD
 
 
 # Misc
-alias al="vi ~/.dotfiles/prezto/aliases.zsh"
-alias vdots="code ~/.dotfiles"
+alias al="vi $ZSH/prezto/aliases.zsh"
+alias hs="vi $ZSH/setc/hammerspoon/readme.md"
+alias vdots="code $ZSH"
 alias hosts="sudo $EDITOR /etc/hosts"
 alias his="history"
 alias quit="exit"
@@ -71,4 +72,5 @@ alias week="date +%V"
 alias speedtest="wget -O /Code/null http://speed.transip.nl/100mb.bin"
 alias ymp3="youtube-dl -i --extract-audio --audio-format mp3 --audio-quality 0 "
 alias scrape="~/Code/Libs/SoundScrape/soundscrape/soundscrape.py "
+
 # alias scrape="~/Library/Python/2.7/lib/python/site-packages/soundscrape/soundscrape.py "

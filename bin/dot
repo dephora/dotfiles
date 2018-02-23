@@ -9,8 +9,11 @@ export ZSH=$HOME/.dotfiles
 # Set macOS defaults
 $ZSH/macos/set-defaults.sh
 
+# Set default shell to zsh
+# chsh -s /bin/zsh
+
 # Upgrade homebrew
 brew update
 
 # Install homebrew packages
-$ZSH/homebrew/install.sh 2>&1
+# $ZSH/homebrew/install.sh 2>&1

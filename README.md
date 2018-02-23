@@ -3,21 +3,24 @@
 This takes Zach Holman's [excellent dotfiles](https://github.com/holman/dotfiles)
 and adds some of my own niceties, including prezto and fish-style autocompletion.
 
-# Matt's mods
+## Matt's mods
 
-- Add / modify brew, cask, mas, aliases
-
+- Add / modify brew, cask, aliases, functions
 
 ## Install
 
-On a clean install of macOS:
+##### Update OS & Install XCode Command Line Tools
 
-```
+```sh
 sudo softwareupdate -i -a
 xcode-select --install
 ```
 
-Clone with Git
+##### Install [iTerm2](https://iterm2.com)
+
+- This is done prior to running `script/bootstrap` to save steps later.
+
+##### Clone with Git and run scripts
 
 ```sh
 git clone https://github.com/dephora/dotfiles.git ~/.dotfiles
@@ -36,6 +39,20 @@ which sets up a few paths that'll be different on your particular machine.
 defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
+
+##### Set default shell to zsh (after restarting iTerm)
+
+```sh
+chsh -s /bin/zsh
+```
+
+##### Update dock with dockutil (optional)
+
+```sh
+macos/dock
+```
+
+##### Restart Machine
 
 ## Topical
 

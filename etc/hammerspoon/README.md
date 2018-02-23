@@ -1,25 +1,61 @@
 # Hammerspoon Configuration
 
-The hyper key is defined as ⌘ + ⌥ + ⌃ (ctrl + alt + cmd). Press this plus the defined key:
+## OS Utilities
+
+The hyper key is defined as **cmd + option + ctrl**.
+
+**⌘ + ⌥ + ⌃**
+
+Press this plus the defined key:
 
 Key | Action
 ---|---
 A | Lock Screen
+D | Mouse Highlight
 R | Reload config
+V | Paste on Locked Inputs
 W | Print `¯\_(ツ)_/¯`
 
-## Launch Apps
+
+## App Toggles
+
+The hyper key is defined as **shift + option**.
+
+**⇧ + ⌃**
+
+Press this plus the defined key:
+
+### Utility
 
 Key | App
 ---|---
-C | Google Chrome
-D | Dash
+A | Airmail
+C | Chrome
 F | Finder
-G | SourceTree (Git)
-M | Mail
-P | System Preferences
-S | Spotify
-T | Terminal
+L | Wunderlist
+M | Macdown
+O | Onenote
+P | System Prefs
+S | Safari
+Y | Spotify
+
+### Code
+
+Key | App
+---|---
+D | Dash
+G | SourceTree
+N | Canary
+X | VS Code
+Z | iTerm2
+
+### Chat
+
+Key | App
+---|---
+E | Messages
+Q | Whatsapp
+W | Discord
 
 ## Window Management
 
