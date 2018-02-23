@@ -5,22 +5,26 @@ and adds some of my own niceties, including prezto and fish-style autocompletion
 
 ## Matt's mods
 
-- Add / modify brew, cask, aliases, functions
+- **Homebrew:** Added several brew and cask apps.
+- **OS Defaults:** Many modifications.
+- **ZSH / Prezto:** Added aliases & functions.
+- **iTerm2:** Include custom prefs / config.
+- **Other:** Include hammerspoon with configs and mackup in *etc* 
 
 ## Install
 
-##### Update OS & Install XCode Command Line Tools
+### Update OS & Install XCode Command Line Tools
 
 ```sh
 sudo softwareupdate -i -a
 xcode-select --install
 ```
 
-##### Install [iTerm2](https://iterm2.com)
+### Install [iTerm2](https://iterm2.com)
 
 - This is done prior to running `script/bootstrap` to save steps later.
 
-##### Clone with Git and run scripts
+### Clone with Git and run scripts
 
 ```sh
 git clone https://github.com/dephora/dotfiles.git ~/.dotfiles
@@ -40,19 +44,19 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
-##### Set default shell to zsh (after restarting iTerm)
+### Set default shell to zsh (after restarting iTerm)
 
 ```sh
 chsh -s /bin/zsh
 ```
 
-##### Update dock with dockutil (optional)
+### Update dock with dockutil (optional)
 
 ```sh
 macos/dock
 ```
 
-##### Restart Machine
+### Restart Machine
 
 ## Topical
 
