@@ -136,6 +136,10 @@ install_prezto () {
 install_dotfiles
 install_prezto
 
+# Set zsh as default shell 
+# (this needs to be tested before enabled)
+# chsh -s /bin/zsh
+
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]
 then

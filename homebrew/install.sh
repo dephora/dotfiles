@@ -34,13 +34,14 @@ apps=(
   jq
   mackup
   # mas
-  mps-youtube
-  mpv
+  # mps-youtube
+  # mpv
   openssl
   pandoc
   peco
   psgrep
   pwgen
+  # python
   readline
   roundup
   shellcheck
@@ -83,19 +84,24 @@ cask=(
   cyberduck
   dash
   # dbeaver-community
-  # iterm2
+  iterm2
   paw
   postgres
-  postico
-  sequel-pro
+  postico  
   sourcetree
+  sqlitestudio
   visual-studio-code
   # Design -------------------------------
   lingo
   sketch
   sketch-toolbox
   # Fonts --------------------------------
+  font-dosis
   font-fira-code
+  font-fontawesome
+  font-open-sans
+  font-raleway
+  font-roboto
   font-source-code-pro
   font-source-sans-pro
   font-source-serif-pro
@@ -113,6 +119,7 @@ cask=(
   hammerspoon
   iina
   macdown
+  mactex
   skim
   slack
   spectacle

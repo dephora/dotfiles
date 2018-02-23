@@ -9,9 +9,5 @@ cd "$(dirname $0)"/..
 # find the installers and run them iteratively
 find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
 
-# Set zsh as default shell 
-# (this needs to be tested before enabled)
-# chsh -s /bin/zsh
-
 # Add all installed apps to dock
 sh -c "macos/dock.sh"
