@@ -77,7 +77,7 @@ hs.hotkey.bind({"alt+shift"}, "w", function() toggleApplication("Whatsapp") end)
 
 
 function spotify() 
-  hs.application.launchOrFocus("Spotify")
+  toggleApplication("Spotify")
   hs.application.launchOrFocus("Spotifree")
 end
 hs.hotkey.bind({"alt+shift"}, "y", spotify)

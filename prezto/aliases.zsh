@@ -63,7 +63,7 @@ unset METHOD
 
 # Misc
 alias al="vi $ZSH/prezto/aliases.zsh"
-alias hs="vi $ZSH/setc/hammerspoon/readme.md"
+alias hs="vi $ZSH/etc/hammerspoon/readme.md"
 alias vdots="code $ZSH"
 alias hosts="sudo $EDITOR /etc/hosts"
 alias his="history"
