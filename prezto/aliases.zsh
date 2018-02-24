@@ -72,5 +72,5 @@ alias week="date +%V"
 alias speedtest="wget -O /Code/null http://speed.transip.nl/100mb.bin"
 alias ymp3="youtube-dl -i --extract-audio --audio-format mp3 --audio-quality 0 "
 alias scrape="~/Code/Libs/SoundScrape/soundscrape/soundscrape.py "
-
+alias pwzip='zip -er '
 # alias scrape="~/Library/Python/2.7/lib/python/site-packages/soundscrape/soundscrape.py "

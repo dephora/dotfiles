@@ -9,7 +9,7 @@ and adds some of my own niceties, including prezto and fish-style autocompletion
 - **OS Defaults:** Many modifications.
 - **ZSH / Prezto:** Added aliases & functions.
 - **iTerm2:** Include custom prefs / config.
-- **Other:** Include hammerspoon with configs and mackup in *etc* 
+- **Other:** Include hammerspoon with configs and mackup in *etc*.
 
 ## Install
 
