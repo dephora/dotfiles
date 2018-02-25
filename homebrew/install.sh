@@ -25,6 +25,7 @@ apps=(
   diff-so-fancy
   dockutil
   fasd
+  ffmpeg
   git
   git-extras
   grc

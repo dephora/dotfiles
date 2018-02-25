@@ -10,8 +10,8 @@ local function toggleApplication(name)
   end
 end
 
--- Keybindinds are done by keyboard location / name 
-hs.hotkey.bind({"alt+shift"}, "a", function() toggleApplication("Airmail") end)
+-- Keybindings are done by keyboard location / name 
+hs.hotkey.bind({"alt+shift"}, "a", function() toggleApplication("Airmail Beta") end)
 hs.hotkey.bind({"alt+shift"}, "b", function() toggleApplication("Calibre") end)
 hs.hotkey.bind({"alt+shift"}, "c", function() toggleApplication("Google Chrome") end)
 hs.hotkey.bind({"alt+shift"}, "f", function() toggleApplication("Finder") end)
