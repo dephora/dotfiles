@@ -14,11 +14,11 @@ alias pelx="~/Code/Projects/Current/elixir"
 alias pelm="~/Code/Projects/Current/elm"
 alias pjs="~/Code/Projects/Current/javascript"
 alias cyto="~/Code/Projects/Current/cyto"
-alias work="~/Documents/Work"
+alias work="~/Documents/Work/CytoSavvy"
 
 
 # Apps
-alias c="code ."
+alias v="code ."
 
 
 # Ember

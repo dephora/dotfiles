@@ -13,7 +13,7 @@ export DOTFILES_ROOT=$HOME/.dotfiles
 # HOMEBREW NATIVE                                                             #
 ###############################################################################
 
-brew tap Goles/battery
+# brew tap Goles/battery
 brew update
 brew upgrade
 
@@ -32,6 +32,7 @@ apps=(
   htop
   httpie
   hub
+  imagemagick
   jq
   mackup
   # mas
@@ -49,6 +50,7 @@ apps=(
   ssh-copy-id
   tree
   unar
+  vips
   wget
   wifi-password
   yarn
@@ -57,7 +59,6 @@ apps=(
 
 brew install "${apps[@]}"
 
-brew install imagemagick --with-libtiff
 brew install grep --with-default-names
 brew install gnu-sed --with-default-names
 
@@ -88,24 +89,27 @@ cask=(
   # iterm2
   paw
   postgres
-  postico  
+  postico
+  prepros
   sourcetree
   sqlitestudio
   visual-studio-code
   # Design -------------------------------
   lingo
   sketch
-  sketch-toolbox
+  sketchpacks
+  # sketch-toolbox
   # Fonts --------------------------------
+  fontbase
   font-dosis
   font-fira-code
   font-fontawesome
-  font-open-sans
-  # font-raleway
   font-roboto
   font-source-code-pro
-  font-source-sans-pro
-  font-source-serif-pro
+  # font-source-sans-pro
+  # font-source-serif-pro
+  # font-raleway # broken last time I tried it
+  # font-open-sans # broken last time I tried it
   # Browsers -----------------------------
   firefox
   google-chrome
@@ -113,7 +117,7 @@ cask=(
   opera
   # Misc ---------------------------------
   appcleaner
-  avast-security
+  # avast-security # installing from site
   calibre
   discord
   dropbox
@@ -121,9 +125,10 @@ cask=(
   iina
   macdown
   # mactex
+  sensiblesidebuttons
   skim
   slack
-  spectacle
+  # spectacle  # handling with hammerspoon for now
   spotifree
   spotify
   vox  

@@ -39,7 +39,7 @@ dockutil --no-restart --add '' --type spacer --section apps --after 'Visual Stud
 
 dockutil --no-restart --add "/Applications/Affinity Designer.app"
 dockutil --no-restart --add "/Applications/Sketch.app"
-dockutil --no-restart --add "/Applications/Sketch Toolbox.app"
+dockutil --no-restart --add "/Applications/Sketchpacks.app"
 dockutil --no-restart --add "/Applications/Lingo.app"
 dockutil --no-restart --add "/Applications/Color Picker.app"
 dockutil --no-restart --add '' --type spacer --section apps --after 'Color Picker'
@@ -53,7 +53,7 @@ dockutil --no-restart --add '' --type spacer --section apps --after 'Iina'
 dockutil --no-restart --add "/Applications/Discord.app"
 dockutil --no-restart --add "/Applications/Whatsapp.app"
 
-# dockutil --no-restart --add '~/Downloads' --view grid --display folder --allhomes
+dockutil --no-restart --add '~/Downloads' --view grid --display folder --allhomes
 
 
 killall Dock

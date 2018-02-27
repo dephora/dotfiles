@@ -75,7 +75,7 @@ if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
 
-if (( $+commands[rbenv] ))
-then
-  eval "$(rbenv init -)"
-fi
+# if (( $+commands[rbenv] ))
+# then
+#   eval "$(rbenv init -)"
+# fi
