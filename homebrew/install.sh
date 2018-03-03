@@ -38,6 +38,8 @@ apps=(
   # mas
   # mps-youtube
   # mpv
+  node
+  nvm
   openssl
   pandoc
   peco
@@ -53,14 +55,16 @@ apps=(
   vips
   wget
   wifi-password
-  yarn
   youtube-dl
 )
 
 brew install "${apps[@]}"
 
-brew install grep --with-default-names
 brew install gnu-sed --with-default-names
+brew install grep --with-default-names
+brew install yarn --without-node
+
+mkdir ~/.nvm
 
 ln -sfv "$DOTFILES_ROOT/etc/mackup/.mackup.cfg" ~
 
@@ -103,9 +107,10 @@ cask=(
   fontbase
   font-dosis
   font-fira-code
-  font-fontawesome
   font-roboto
+  font-hasklig
   font-source-code-pro
+  font-fontawesome
   # font-source-sans-pro
   # font-source-serif-pro
   # font-raleway # broken last time I tried it

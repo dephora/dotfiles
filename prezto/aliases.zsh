@@ -9,13 +9,14 @@ alias docs="~/Documents"
 alias dots="~/.dotfiles"
 alias dl="~/Downloads"
 alias co="~/Code"
-alias p="~/Code/Projects/Current"
+alias pr="~/Code/Projects/Current"
 alias pelx="~/Code/Projects/Current/elixir"
 alias pelm="~/Code/Projects/Current/elm"
+alias pelm="~/Code/Projects/Current/ember"
 alias pjs="~/Code/Projects/Current/javascript"
 alias cyto="~/Code/Projects/Current/cyto"
 alias work="~/Documents/Work/CytoSavvy"
-
+alias courses="~/Code/courses"
 
 # Apps
 alias v="code ."
