@@ -1,6 +1,6 @@
 # Core
-alias cls='clear' # Good 'ol Clear Screen command
-alias rr="rm -rf"
+alias cls='clear' # clear screen
+alias rr="rm -rf" # recursive delete
 alias pk="kill -9 " # kill by PID
 
 
@@ -12,25 +12,16 @@ alias co="~/Code"
 alias pr="~/Code/Projects/Current"
 alias pelx="~/Code/Projects/Current/elixir"
 alias pelm="~/Code/Projects/Current/elm"
-alias pelm="~/Code/Projects/Current/ember"
+alias pem="~/Code/Projects/Current/ember"
 alias pjs="~/Code/Projects/Current/javascript"
-alias cyto="~/Code/Projects/Current/cyto"
+alias cyto="~/Code/Projects/Current/work/cyto"
 alias work="~/Documents/Work/CytoSavvy"
 alias courses="~/Code/courses"
+alias books="~/Code/books"
+
 
 # Apps
 alias v="code ."
-
-
-# Ember
-alias e="ember "
-alias eg="ember g "
-alias egr="ember g route "
-alias egc="ember g component "
-alias ei="ember install "
-alias et="ember test "
-alias ed="ember destroy "
-alias es="ember server"
 
 
 # Elixir / Phoenix
@@ -46,8 +37,22 @@ alias ncd="npm-check -su"
 
 # Yarn
 alias ya="yarn add "
+alias yu="yarn upgrade "
 alias yr="yarn remove "
 alias yi="yarn install "
+
+
+# Ember
+alias e="ember "
+alias egr="ember g route "
+alias egc="ember g component "
+alias egt="ember g template "
+alias edr="ember d route "
+alias edc="ember d component "
+alias edt="ember d template "
+alias ei="ember install "
+alias et="ember test "
+alias es="ember serve"
 
 
 # Network
