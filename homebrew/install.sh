@@ -121,9 +121,13 @@ cask=(
   google-chrome-canary
   opera
   # Misc ---------------------------------
+  1clipboard
   appcleaner
+  beardedspice
   # avast-security # installing from site
   calibre
+  # clipgrab
+  # clipy
   discord
   dropbox
   hammerspoon
@@ -131,6 +135,7 @@ cask=(
   macdown
   # mactex
   sensiblesidebuttons
+  soundcloud-downloader
   skim
   slack
   # spectacle  # handling with hammerspoon for now
