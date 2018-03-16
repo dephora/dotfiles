@@ -38,8 +38,6 @@ apps=(
   # mas
   # mps-youtube
   # mpv
-  node
-  nvm
   openssl
   pandoc
   peco
@@ -63,8 +61,6 @@ brew install "${apps[@]}"
 brew install gnu-sed --with-default-names
 brew install grep --with-default-names
 brew install yarn --without-node
-
-mkdir ~/.nvm
 
 ln -sfv "$DOTFILES_ROOT/etc/mackup/.mackup.cfg" ~
 
@@ -152,6 +148,7 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize we
 
 # Link Hammerspoon config
 if [ ! -d ~/.hammerspoon ]; then ln -sfv "$DOTFILES_ROOT/etc/hammerspoon/" ~/.hammerspoon; fi
+
 
 ###############################################################################
 # END CASK                                                                    #

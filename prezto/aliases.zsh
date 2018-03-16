@@ -14,6 +14,9 @@ alias pelx="~/Code/Projects/Current/elixir"
 alias pelm="~/Code/Projects/Current/elm"
 alias pem="~/Code/Projects/Current/ember"
 alias pjs="~/Code/Projects/Current/javascript"
+alias celx="~/Code/Courses/elixir"
+alias cem="~/Code/Courses/ember"
+alias cjs="~/Code/Courses/javascript"
 alias cyto="~/Code/Projects/Current/work/cyto"
 alias work="~/Documents/Work/CytoSavvy"
 alias courses="~/Code/courses"
@@ -34,12 +37,15 @@ alias nu="npm uninstall "
 alias nup="npm update"
 alias nri="rm -r node_modules && npm install"
 alias ncd="npm-check -su"
+alias nt="npm test "
+alias mocha=" ./node_modules/mocha/bin/mocha "
 
 # Yarn
 alias ya="yarn add "
 alias yu="yarn upgrade "
 alias yr="yarn remove "
 alias yi="yarn install "
+alias ypr="yarn add prettier --dev --exact"
 
 
 # Ember

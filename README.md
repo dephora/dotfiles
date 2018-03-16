@@ -52,6 +52,17 @@ this script in `bin/`.
 chsh -s /bin/zsh
 ```
 
+### Install node with nvm (after restarting iTerm)
+
+[zsh-nvm](https://github.com/lukechilds/zsh-nvm#manually)
+
+zsh-nvm is included and will automatically install upon shell restart / new tab.
+This does not install node, to do so run the command below.
+
+```sh
+nvm install node
+```
+
 ### Update dock with dockutil (optional)
 
 ```sh
