@@ -3,6 +3,9 @@ alias cls='clear' # clear screen
 alias rr="rm -rf" # recursive delete
 alias pk="kill -9 " # kill by PID
 
+# Nav
+alias ...="../.."
+alias ....="../../.."
 
 # Dirs
 alias docs="~/Documents"
@@ -14,8 +17,10 @@ alias pelx="~/Code/Projects/Current/elixir"
 alias pelm="~/Code/Projects/Current/elm"
 alias pem="~/Code/Projects/Current/ember"
 alias pjs="~/Code/Projects/Current/javascript"
+alias pvue="~/Code/Projects/Current/vue"
 alias celx="~/Code/Courses/elixir"
 alias cem="~/Code/Courses/ember"
+alias cvue="~/Code/Courses/vue"
 alias cjs="~/Code/Courses/javascript"
 alias cyto="~/Code/Projects/Current/work/cyto"
 alias work="~/Documents/Work/cyto"
@@ -38,8 +43,11 @@ alias nup="npm update"
 alias nri="rm -r node_modules && npm install"
 alias ncd="npm-check -su"
 alias nrd="npm run dev"
+alias nrl="npm run lint"
+alias nrlf="npm run lintfix"
 alias nt="npm test "
 alias mocha=" ./node_modules/mocha/bin/mocha "
+alias rrnm="find . -name "node_modules" -exec rm -rf '{}' +"
 
 # Yarn
 alias ya="yarn add "
@@ -47,6 +55,9 @@ alias yu="yarn upgrade "
 alias yr="yarn remove "
 alias yi="yarn install "
 alias ys="yarn serve"
+alias yrd="yarn run dev"
+alias yrl="yarn run lint"
+alias yrlf="yarn run lintfix"
 alias ypr="yarn add prettier --dev --exact"
 
 
@@ -77,7 +88,8 @@ unset METHOD
 
 # Misc
 alias al="vi $ZSH/prezto/aliases.zsh"
-alias hs="vi $ZSH/etc/hammerspoon/readme.md"
+alias spoons="vi $ZSH/etc/hammerspoon/readme.md"
+alias hs="http-serve "
 alias vdots="code $ZSH"
 alias hosts="sudo $EDITOR /etc/hosts"
 alias his="history"
