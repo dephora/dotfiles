@@ -51,6 +51,7 @@ alias rrnm="find . -name "node_modules" -exec rm -rf '{}' +"
 
 # Yarn
 alias ya="yarn add "
+alias yga="yarn global add "
 alias yu="yarn upgrade "
 alias yr="yarn remove "
 alias yi="yarn install "
@@ -59,7 +60,7 @@ alias yrd="yarn run dev"
 alias yrl="yarn run lint"
 alias yrlf="yarn run lintfix"
 alias ypr="yarn add prettier --dev --exact"
-
+alias nuxtinit="yarn add babel-eslint eslint eslint-config-prettier eslint-loader eslint-plugin-vue eslint-plugin-prettier prettier --dev"
 
 # Ember
 alias e="ember "
@@ -72,6 +73,11 @@ alias edt="ember d template "
 alias ei="ember install "
 alias et="ember test "
 alias es="ember serve"
+
+# Vue / Nuxt
+alias vc="vue create "
+alias vapollo="yarn vue-apollo graphql apollo-client apollo-link apollo-link-http apollo-link-context apollo-cache-inmemory graphql-tag"
+alias nc="create-nuxt-app "
 
 
 # Network
