@@ -22,6 +22,7 @@ alias celx="~/Code/Courses/elixir"
 alias cem="~/Code/Courses/ember"
 alias cvue="~/Code/Courses/vue"
 alias cjs="~/Code/Courses/javascript"
+alias apvue="~/Code/Apps/vue"
 alias cyto="~/Code/Projects/Current/work/cyto"
 alias work="~/Documents/Work/cyto"
 alias courses="~/Code/courses"
@@ -56,11 +57,23 @@ alias yu="yarn upgrade "
 alias yr="yarn remove "
 alias yi="yarn install "
 alias ys="yarn serve"
-alias yrd="yarn run dev"
-alias yrl="yarn run lint"
-alias yrlf="yarn run lintfix"
+alias yd="yarn dev"
+alias yl="yarn lint"
+alias ylf="yarn lintfix"
 alias ypr="yarn add prettier --dev --exact"
+alias yrx="yarn add rxjs webpack webpack-dev-server"
+
+# Vue / Nuxt
+## vue
+alias vc="vue create "
+alias vs="vue serve"
+alias vgql="ya vue-apollo graphql apollo-client apollo-link apollo-link-http apollo-link-context apollo-cache-inmemory graphql-tag"
+alias vap="ya eslint-plugin-prettier eslint-config-prettier prettier --dev
+"
+## nuxt
+alias nc="create-nuxt-app "
 alias nuxtinit="yarn add babel-eslint eslint eslint-config-prettier eslint-loader eslint-plugin-vue eslint-plugin-prettier prettier --dev"
+
 
 # Ember
 alias e="ember "
@@ -74,11 +87,8 @@ alias ei="ember install "
 alias et="ember test "
 alias es="ember serve"
 
-# Vue / Nuxt
-alias vc="vue create "
-alias vapollo="yarn vue-apollo graphql apollo-client apollo-link apollo-link-http apollo-link-context apollo-cache-inmemory graphql-tag"
-alias nc="create-nuxt-app "
-
+# JS
+alias esinit="./node_modules/.bin/eslint --init"
 
 # Network
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -98,12 +108,13 @@ alias spoons="vi $ZSH/etc/hammerspoon/readme.md"
 alias hs="http-serve "
 alias vdots="code $ZSH"
 alias hosts="sudo $EDITOR /etc/hosts"
+alias cpssh="pbcopy < ~/.ssh/id_rsa.pub"
 alias his="history"
 alias quit="exit"
 alias week="date +%V"
 alias speedtest="wget -O /Code/null http://speed.transip.nl/100mb.bin"
 alias ymp3="youtube-dl -i --extract-audio --audio-format mp3 --audio-quality 0 "
 alias scrape="~/Code/Libs/SoundScrape/soundscrape/soundscrape.py "
-alias pwzip='zip -er '
-alias cdel='cd /Volumes/Elements'
+alias pwzip="zip -er "
+alias cdel="cd /Volumes/Elements"
 # alias scrape="~/Library/Python/2.7/lib/python/site-packages/soundscrape/soundscrape.py "

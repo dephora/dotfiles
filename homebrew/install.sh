@@ -119,7 +119,7 @@ cask=(
   # Misc ---------------------------------
   1clipboard
   appcleaner
-  beardedspice
+  # beardedspice
   # avast-security # installing from site
   calibre
   # clipgrab
@@ -137,7 +137,7 @@ cask=(
   # spectacle  # handling with hammerspoon for now
   spotifree
   spotify
-  vox  
+  # vox   
   xmind
 )
 
