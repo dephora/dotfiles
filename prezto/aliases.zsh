@@ -12,21 +12,37 @@ alias docs="~/Documents"
 alias dots="~/.dotfiles"
 alias dl="~/Downloads"
 alias co="~/Code"
-alias pr="~/Code/Projects/Current"
-alias pelx="~/Code/Projects/Current/elixir"
-alias pelm="~/Code/Projects/Current/elm"
-alias pem="~/Code/Projects/Current/ember"
-alias pjs="~/Code/Projects/Current/javascript"
-alias pvue="~/Code/Projects/Current/vue"
-alias celx="~/Code/Courses/elixir"
-alias cem="~/Code/Courses/ember"
-alias cvue="~/Code/Courses/vue"
-alias cjs="~/Code/Courses/javascript"
-alias apvue="~/Code/Apps/vue"
-alias cyto="~/Code/Projects/Current/work/cyto"
 alias work="~/Documents/Work/cyto"
-alias courses="~/Code/courses"
-alias books="~/Code/books"
+
+# Code 
+##---- apps
+alias aelx="~/Code/Elixir/apps"
+alias aem="~/Code/Ember/apps"
+alias ajs="~/Code/JavaScript/apps"
+alias avue="~/Code/Vue/apps"
+
+##-- courses
+alias celx="~/Code/Elixir/courses"
+alias cem="~/Code/Ember/courses"
+alias cjs="~/Code/JavaScript/courses"
+alias cvue="~/Code/Vue/courses"
+
+##-- demos
+alias delx="~/Code/Elixir/demos"
+alias dem="~/Code/Ember/demos"
+alias djs="~/Code/JavaScript/demos"
+alias dvue="~/Code/Vue/demos"
+
+##--projects
+alias pelx="~/Code/Elixir/projects/current"
+alias pem="~/Code/Ember/projects/current"
+alias pjs="~/Code/JavaScript/projects/current"
+alias pvue="~/Code/Vue/projects/current"
+
+##--cyto
+alias cyto="~/Code/Work/cyto"
+alias cyto3="~/Code/Work/cyto-v3"
+
 
 
 # Apps
@@ -57,6 +73,7 @@ alias yu="yarn upgrade "
 alias yr="yarn remove "
 alias yi="yarn install "
 alias ys="yarn serve"
+alias yst="yarn start"
 alias yd="yarn dev"
 alias yl="yarn lint"
 alias ylf="yarn lintfix"
