@@ -45,7 +45,9 @@ alias pvue="~/Code/Vue/projects/current"
 
 ### books
 alias bjs="~/Code/JavaScript/books"
-alias bvue="~Code/Vue/books"
+alias bvue="~/Code/Vue/books"
+alias belx="~/Code/Elixir/books"
+
 
 ### cyto
 alias cyto="~/Code/Work/cyto"
