@@ -63,39 +63,49 @@ alias mongsh="mongo --host 127.0.0.1:27017 "
 
 
 # NPM
+### native
 alias ni="npm install "
 alias nid="npm install --save-dev "
 alias nu="npm uninstall "
-alias nup="npm update"
-alias nru="npm run unit"
 alias nri="rm -r node_modules && npm install"
-alias ncd="npm-check -su"
-alias nrb="npm run build"
-alias nrd="npm run dev"
-alias nrl="npm run lint"
-alias nrlf="npm run lint:fix"
+alias nb="npm build"
+alias ns="npm serve"
 alias nst="npm start"
+alias nd="npm dev"
+alias nl="npm lint"
+alias nlf="npm lint:fix"
+alias nun="npm unit"
 alias nt="npm test "
-alias niw="npm install --save-dev  webpack webpack-cli"
+alias nup="npm update"
+alias ncd="npm-check -su"
+alias ncc="npm cache clean"
+### packages
+alias npr="npm install prettier --dev --exact"
+alias nweb="npm install --save-dev  webpack webpack-dev-server webpack-cli"
+
 
 
 # Yarn
-alias ya="yarn add "
-alias yb="yarn build"
-alias yga="yarn global add "
-alias yu="yarn upgrade "
-alias yr="yarn remove "
+### native
 alias yi="yarn install "
+alias ya="yarn add "
+alias yad="yarn add --dev "
+alias yr="yarn remove "
+alias yu="yarn upgrade "
+alias yb="yarn build"
 alias ys="yarn serve"
 alias yst="yarn start"
 alias yd="yarn dev"
 alias yl="yarn lint"
 alias ylf="yarn lint:fix"
-alias ypr="yarn add prettier --dev --exact"
-alias yrx="yarn add rxjs webpack webpack-dev-server"
 alias yun="yarn unit"
-alias yaw="yarn add webpack webpack-cli"
-alias bruy="brew upgrade yarn --without-node"
+alias yun="yarn test"
+alias ycc="yarn cache clean"
+alias yupi="yarn upgrade-interactive"
+alias yup="brew upgrade yarn --without-node"
+### packages
+alias ypr="yarn add prettier --dev --exact"
+alias yweb="yarn add --save-dev webpack webpack-dev-server webpack-cli"
 
 
 

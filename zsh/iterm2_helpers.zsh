@@ -72,6 +72,10 @@ function tab_drac_lgray()  { title "$1"; tab_color  98 111 136; }
 function tab_drac_pink()   { title "$1"; tab_color 255 146 209; }
 
 
+# Tron Tabs
+function tab_tron_black { title "$1"; tab_color 20 25 31; }
+function tab_tron_gray  { title "$1"; tab_color 27 35 44; }
+
 # Overridden colors
 function tab_red()    { title "$1"; tab_color 195  89  76; }
 function tab_orange() { title "$1"; tab_color 219 154  88; }
