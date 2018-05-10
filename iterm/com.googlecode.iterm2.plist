@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AddNewTabAtEndOfTabs</key>
+	<false/>
 	<key>AlternateMouseScroll</key>
 	<true/>
 	<key>AppleAntiAliasingThreshold</key>
@@ -3540,9 +3542,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>650 510 620 392 0 0 1920 1058 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>4 364 918 512 0 0 1920 1058 </string>
+	<string>1038 444 1018 447 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 57 954 748 0 0 1920 1058 </string>
+	<string>0 37 956 880 0 0 1920 1058 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -10715,6 +10717,10 @@
 	<true/>
 	<key>TabStyle</key>
 	<integer>1</integer>
+	<key>TerminalMargin</key>
+	<integer>14</integer>
+	<key>TerminalVMargin</key>
+	<integer>14</integer>
 	<key>UseBorder</key>
 	<false/>
 	<key>Window Arrangements</key>

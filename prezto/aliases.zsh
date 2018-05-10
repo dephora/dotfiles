@@ -15,7 +15,7 @@ alias dl="~/Downloads"
 alias co="~/Code"
 alias work="~/Documents/Work/cyto"
 alias music="~/Music"
-
+alias of="open ."
 
 
 # Code 
@@ -24,30 +24,34 @@ alias aelx="~/Code/Elixir/apps"
 alias aem="~/Code/Ember/apps"
 alias ajs="~/Code/JavaScript/apps"
 alias avue="~/Code/Vue/apps"
+alias arust="~/Code/Rust/apps"
 
 ### courses
 alias celx="~/Code/Elixir/courses"
 alias cem="~/Code/Ember/courses"
 alias cjs="~/Code/JavaScript/courses"
 alias cvue="~/Code/Vue/courses"
+alias crust="~/CodeRust/courses"
 
 ### demos
 alias delx="~/Code/Elixir/demos"
 alias dem="~/Code/Ember/demos"
 alias djs="~/Code/JavaScript/demos"
 alias dvue="~/Code/Vue/demos"
+alias drust="~/Code/Rust/demos"
 
 ### projects
 alias pelx="~/Code/Elixir/projects/current"
 alias pem="~/Code/Ember/projects/current"
 alias pjs="~/Code/JavaScript/projects/current"
 alias pvue="~/Code/Vue/projects/current"
+alias prust="~/Code/Rust/projects/current"
 
 ### books
 alias bjs="~/Code/JavaScript/books"
 alias bvue="~/Code/Vue/books"
 alias belx="~/Code/Elixir/books"
-
+alias brust="~/Code/Rust/books"
 
 ### cyto
 alias cyto="~/Code/Work/cyto"
@@ -60,7 +64,10 @@ alias v="code ."
 alias mong="mongod --dbpath /usr/local/var/mongodb "
 alias mongsh="mongo --host 127.0.0.1:27017 "
 
-
+# Docker
+alias dcu="docker-compose up"
+alias dockercont="docker exec -t -i autheg_backend_1 /bin/bash"
+alias dsa="docker stop $(docker ps -q)"
 
 # NPM
 ### native
@@ -110,6 +117,8 @@ alias yweb="yarn add --save-dev webpack webpack-dev-server webpack-cli"
 
 
 # Node
+alias n="node "
+alias ndm="nodemon "
 alias debugjest="node --inspect --inspect-brk node_modules/jest/bin/jest.js --config .jestrc.json"
 alias debugjestb="node --inspect --inspect-brk node_modules/jest/bin/jest.js"
 alias mocha="./node_modules/mocha/bin mocha "
@@ -138,8 +147,12 @@ alias nuxtinit="yarn add babel-eslint eslint eslint-config-prettier eslint-loade
 
 
 # Elixir / Phoenix
-alias mphxs="mix phx.server"
-
+alias ism="iex -S mix"
+alias mps="mix phx.server"
+alias mpn="mix phx.new "
+alias mdg="mix deps.get"
+alias mem="mix ecto.migrate"
+alias megm="mix ecto.gen.migration "
 
 
 # Ember
@@ -154,6 +167,17 @@ alias ei="ember install "
 alias et="ember test "
 alias es="ember serve"
 
+
+
+# Ruby
+alias rvmlatest="rvm get stable --autolibs=enable"
+
+
+
+# Rust
+alias rc="rustc "
+alias cnb="cargo new --bin "
+alias cr="cargo run"
 
 
 # Network
