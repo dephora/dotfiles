@@ -16,7 +16,6 @@
  # 409203825     # Numbers 
  # 409201541     # Pages 
  # 425955336     # Skitch
- # 803453959     # Slack
  # 1147396723    # WhatsApp
  # 410628904     # Wunderlist
 #)

@@ -65,9 +65,9 @@ alias mong="mongod --dbpath /usr/local/var/mongodb "
 alias mongsh="mongo --host 127.0.0.1:27017 "
 
 # Docker
-alias dcu="docker-compose up"
-alias dockercont="docker exec -t -i autheg_backend_1 /bin/bash"
-alias dsa="docker stop $(docker ps -q)"
+# alias dcu="docker-compose up"
+# alias dockercont="docker exec -t -i autheg_backend_1 /bin/bash"
+# alias dsa="docker stop $(docker ps -q)"
 
 # NPM
 ### native

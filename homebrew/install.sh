@@ -86,18 +86,21 @@ cask=(
   cyberduck
   dash
   # dbeaver-community
+  graphql-playground
   # iterm2
-  paw
+  # paw
   postgres
   postico
+  postman
   prepros
   sourcetree
   sqlitestudio
   visual-studio-code
   # Design -------------------------------
   lingo
-  sketch
-  sketchpacks
+  figma
+  # sketch
+  # sketchpacks
   # sketch-toolbox
   # Fonts --------------------------------
   fontbase
@@ -114,7 +117,7 @@ cask=(
   # Browsers -----------------------------
   firefox
   google-chrome
-  google-chrome-canary
+  # google-chrome-canary # this crashes when installed with cask
   opera
   # Misc ---------------------------------
   1clipboard
