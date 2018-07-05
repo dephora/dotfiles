@@ -21,7 +21,7 @@ hs.hotkey.bind({"alt+shift"}, "m", function() toggleApplication("Macdown") end)
 hs.hotkey.bind({"alt+shift"}, "o", function() toggleApplication("Microsoft Onenote") end)
 hs.hotkey.bind({"alt+shift"}, "p", function() toggleApplication("System Preferences") end)
 hs.hotkey.bind({"alt+shift"}, "s", function() toggleApplication("Safari") end)
-hs.hotkey.bind({"alt+shift"}, "v", function() toggleApplication("Vox") end)
+hs.hotkey.bind({"alt+shift"}, "v", function() toggleApplication("Firefox Developer Edition") end)
 
 hs.hotkey.bind({"alt+shift"}, "d", function() toggleApplication("Dash") end)
 hs.hotkey.bind({"alt+shift"}, "g", function() toggleApplication("SourceTree") end)

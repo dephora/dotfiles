@@ -89,7 +89,8 @@ cask=(
   graphql-playground
   # iterm2
   # paw
-  postgres
+  # postgres
+  postgresql
   postico
   postman
   prepros
