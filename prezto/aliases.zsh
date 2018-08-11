@@ -180,6 +180,9 @@ alias rc="rustc "
 alias cnb="cargo new --bin "
 alias cr="cargo run"
 
+# Python
+alias py="python3 "
+
 
 # Network
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
