@@ -3537,12 +3537,14 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>1409 110 445 351 0 0 1920 1058 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>650 510 620 392 0 0 1920 1058 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>948 -7 918 512 0 0 1920 1058 </string>
+	<string>948 375 928 394 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 -60 668 478 0 0 1920 1058 </string>
+	<string>0 31 956 520 0 0 1920 1058 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -3583,26 +3585,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.53333333333333333</real>
+				<real>0.69803921568627447</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.41568627450980394</real>
+				<real>0.94901960784313721</real>
 				<key>Red Component</key>
-				<real>0.31764705882352939</real>
+				<real>0.094117647058823528</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.54832202196121216</real>
+				<real>0.10196078431372549</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.98275065422058105</real>
+				<real>1</real>
 				<key>Red Component</key>
-				<real>0.9424901008605957</real>
+				<real>0.89411764705882357</real>
 			</dict>
 			<key>Ansi 12 Color</key>
 			<dict>
@@ -3674,26 +3676,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.54832202196121216</real>
+				<real>0.10196078431372549</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.98275065422058105</real>
+				<real>1</real>
 				<key>Red Component</key>
-				<real>0.9424901008605957</real>
+				<real>0.89411764705882357</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.91764705882352937</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.91764705882352937</real>
 				<key>Red Component</key>
-				<real>0.71372549019607845</real>
+				<real>0.070588235294117646</real>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
@@ -4207,7 +4209,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Hasklig-Medium 14</string>
+			<string>Hasklig-Semibold 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -10648,7 +10650,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-08-07T20:24:37Z</date>
+	<date>2018-09-03T09:11:21Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SmartPlacement</key>

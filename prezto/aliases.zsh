@@ -17,7 +17,8 @@ alias wo="~/Code/work/cyto-v4"
 alias work="~/Documents/Work/cyto"
 alias music="~/Music"
 alias of="open ."
-
+alias cov="cd ~/Code/vue"
+alias cojs="cd ~/Code/js"
 
 # Code 
 ### apps
@@ -144,7 +145,7 @@ alias vap="ya eslint-plugin-prettier eslint-config-prettier prettier --dev"
 
 alias nc="create-nuxt-app "
 alias nuxtinit="yarn add babel-eslint eslint eslint-config-prettier eslint-loader eslint-plugin-vue eslint-plugin-prettier prettier --dev"
-
+alias covue="cd ~/Code/vue"
 
 
 # Elixir / Phoenix
@@ -213,4 +214,5 @@ alias ymp3="youtube-dl -i --extract-audio --audio-format mp3 --audio-quality 0 "
 alias scrape="~/Code/Libs/SoundScrape/soundscrape/soundscrape.py "
 alias pwzip="zip -er "
 alias cdel="cd /Volumes/Elements"
+alias setss="defaults write com.apple.screencapture location "
 # alias scrape="~/Library/Python/2.7/lib/python/site-packages/soundscrape/soundscrape.py "
