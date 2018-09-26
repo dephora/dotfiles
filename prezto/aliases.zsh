@@ -18,7 +18,7 @@ alias work="~/Documents/Work/cyto"
 alias music="~/Music"
 alias of="open ."
 alias cov="cd ~/Code/vue"
-alias cojs="cd ~/Code/js"
+alias cojs="cd ~/Code/javascript"
 
 # Code 
 ### apps
@@ -105,6 +105,7 @@ alias yb="yarn build"
 alias ys="yarn serve"
 alias yst="yarn start"
 alias yd="yarn dev"
+alias ydo="yarn dev --open"
 alias yl="yarn lint"
 alias ylf="yarn lint:fix"
 alias yun="yarn unit"
@@ -136,7 +137,6 @@ alias mwjs="mkdir dist && mkdir src && touch dist/index.html && touch src/index.
 alias esinit="./node_modules/.bin/eslint --init"
 
 
-
 # Vue / Nuxt
 alias vc="vue create "
 alias vs="vue serve"
@@ -146,6 +146,17 @@ alias vap="ya eslint-plugin-prettier eslint-config-prettier prettier --dev"
 alias nc="create-nuxt-app "
 alias nuxtinit="yarn add babel-eslint eslint eslint-config-prettier eslint-loader eslint-plugin-vue eslint-plugin-prettier prettier --dev"
 alias covue="cd ~/Code/vue"
+alias vb="vue build "
+alias vui="vue ui"
+## Vue Enterprise Boiler
+alias ydo="yarn dev --open"
+alias yde2="yarn dev:e2e"
+alias ync="yarn new component "
+alias ynv="yarn new view "
+alias ynl="yarn new layout "
+alias ynm="yarn new module "
+alias ynu="yarn new util "
+alias yne="yarn new e2e "
 
 
 # Elixir / Phoenix
@@ -170,10 +181,8 @@ alias et="ember test "
 alias es="ember serve"
 
 
-
 # Ruby
 alias rvmlatest="rvm get stable --autolibs=enable"
-
 
 
 # Rust
@@ -181,8 +190,10 @@ alias rc="rustc "
 alias cnb="cargo new --bin "
 alias cr="cargo run"
 
+
 # Python
 alias py="python3 "
+
 
 
 # Network
@@ -202,7 +213,7 @@ unset METHOD
 # Misc
 alias al="vi $ZSH/prezto/aliases.zsh"
 alias spoons="vi $ZSH/etc/hammerspoon/readme.md"
-alias hs="http-serve "
+alias hs="http-server"
 alias vdots="code $ZSH"
 alias hosts="sudo $EDITOR /etc/hosts"
 alias cpssh="pbcopy < ~/.ssh/id_rsa.pub"
