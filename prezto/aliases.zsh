@@ -9,42 +9,45 @@ alias pk="kill -9 " # kill by PID
 alias ...="../.."
 alias ....="../../.."
 
-alias docs="~/Documents"
 alias dots="~/.dotfiles"
+alias docs="~/Documents"
 alias dl="~/Downloads"
-alias co="~/Code"
-alias wo="~/Code/work/cyto-v4"
 alias work="~/Documents/Work/cyto"
 alias music="~/Music"
 alias of="open ."
+
+
+
+# Code 
+### dirs
+alias co="~/Code"
 alias cov="cd ~/Code/vue"
 alias cojs="cd ~/Code/javascript"
 
-# Code 
 ### apps
+# alias aem="~/Code/Ember/apps"
 alias aelx="~/Code/Elixir/apps"
-alias aem="~/Code/Ember/apps"
 alias ajs="~/Code/JavaScript/apps"
 alias avue="~/Code/Vue/apps"
 alias arust="~/Code/Rust/apps"
 
 ### courses
+# alias cem="~/Code/Ember/courses"
 alias celx="~/Code/Elixir/courses"
-alias cem="~/Code/Ember/courses"
 alias cjs="~/Code/JavaScript/courses"
 alias cvue="~/Code/Vue/courses"
-alias crust="~/CodeRust/courses"
+alias crust="~/Code/Rust/courses"
 
 ### demos
+# alias dem="~/Code/Ember/demos"
 alias delx="~/Code/Elixir/demos"
-alias dem="~/Code/Ember/demos"
 alias djs="~/Code/JavaScript/demos"
 alias dvue="~/Code/Vue/demos"
 alias drust="~/Code/Rust/demos"
 
 ### projects
+# alias pem="~/Code/Ember/projects/current"
 alias pelx="~/Code/Elixir/projects/current"
-alias pem="~/Code/Ember/projects/current"
 alias pjs="~/Code/JavaScript/projects/current"
 alias pvue="~/Code/Vue/projects/current"
 alias prust="~/Code/Rust/projects/current"
@@ -59,7 +62,6 @@ alias brust="~/Code/Rust/books"
 
 ### cyto
 alias cyto="~/Code/Work/cyto"
-alias cyto3="~/Code/Work/cyto-v3"
 alias c4="~/Code/Work/cyto-v4"
 
 
@@ -68,10 +70,7 @@ alias v="code ."
 alias mong="mongod --dbpath /usr/local/var/mongodb "
 alias mongsh="mongo --host 127.0.0.1:27017 "
 
-# Docker
-# alias dcu="docker-compose up"
-# alias dockercont="docker exec -t -i autheg_backend_1 /bin/bash"
-# alias dsa="docker stop $(docker ps -q)"
+
 
 # NPM
 ### native
@@ -161,6 +160,7 @@ alias ynu="yarn new util "
 alias yne="yarn new e2e "
 
 
+
 # Elixir / Phoenix
 alias ism="iex -S mix"
 alias mps="mix phx.server"
@@ -170,21 +170,10 @@ alias mem="mix ecto.migrate"
 alias megm="mix ecto.gen.migration "
 
 
-# Ember
-alias e="ember "
-alias egr="ember g route "
-alias egc="ember g component "
-alias egt="ember g template "
-alias edr="ember d route "
-alias edc="ember d component "
-alias edt="ember d template "
-alias ei="ember install "
-alias et="ember test "
-alias es="ember serve"
-
 
 # Ruby
 alias rvmlatest="rvm get stable --autolibs=enable"
+
 
 
 # Rust
@@ -234,3 +223,25 @@ alias pwzip="zip -er "
 alias cdel="cd /Volumes/Elements"
 alias setss="defaults write com.apple.screencapture location "
 # alias scrape="~/Library/Python/2.7/lib/python/site-packages/soundscrape/soundscrape.py "
+
+
+
+############### Graveyard ###############
+
+# Docker
+# alias dcu="docker-compose up"
+# alias dockercont="docker exec -t -i autheg_backend_1 /bin/bash"
+# alias dsa="docker stop $(docker ps -q)"
+
+
+# Ember
+# alias e="ember "
+# alias egr="ember g route "
+# alias egc="ember g component "
+# alias egt="ember g template "
+# alias edr="ember d route "
+# alias edc="ember d component "
+# alias edt="ember d template "
+# alias ei="ember install "
+# alias et="ember test "
+# alias es="ember serve"
