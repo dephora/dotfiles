@@ -49,6 +49,7 @@ alias pjs="~/Code/JavaScript/projects/current"
 alias pvue="~/Code/Vue/projects/current"
 alias prust="~/Code/Rust/projects/current"
 
+
 ### books
 alias bjs="~/Code/JavaScript/books"
 alias bvue="~/Code/Vue/books"
@@ -187,8 +188,13 @@ alias rvmlatest="rvm get stable --autolibs=enable"
 
 # Rust
 alias rc="rustc "
+alias cn="cargo new"
 alias cnb="cargo new --bin "
 alias cr="cargo run"
+alias cb="cargo build"
+alias cch="cargo check"
+alias cbr="cargo build --release"
+alias cdo="cargo doc --open"
 
 
 # Python
