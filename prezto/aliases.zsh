@@ -1,14 +1,16 @@
-# Core
+# CORE ----------------------------------------------------
 alias cls='clear' # clear screen
 alias rr="rm -rf" # recursive delete
 alias pk="kill -9 " # kill by PID
+alias t="touch"
 
 
 
-# Dirs
+# DIRS ----------------------------------------------------
+
+## Core
 alias ...="../.."
 alias ....="../../.."
-
 alias dots="~/.dotfiles"
 alias docs="~/Documents"
 alias dl="~/Downloads"
@@ -16,140 +18,91 @@ alias work="~/Documents/Work/cyto"
 alias music="~/Music"
 alias of="open ."
 
-
-
-# Code 
-### dirs
+## Code -- Base
 alias co="~/Code"
-alias cov="cd ~/Code/vue"
+alias coe="cd ~/Code/elixir"
 alias cojs="cd ~/Code/javascript"
+alias cor="cd ~Code/rust"
+alias cov="cd ~/Code/vue"
 
-### apps
-# alias aem="~/Code/Ember/apps"
+## Code -- Apps
 alias aelx="~/Code/Elixir/apps"
 alias ajs="~/Code/JavaScript/apps"
-alias avue="~/Code/Vue/apps"
 alias arust="~/Code/Rust/apps"
+alias avue="~/Code/Vue/apps"
 
-### courses
-# alias cem="~/Code/Ember/courses"
+### Code -- Books
+alias belx="~/Code/Elixir/books"
+alias bjs="~/Code/JavaScript/books"
+alias brust="~/Code/Rust/books"
+alias bvue="~/Code/Vue/books"
+
+## Code -- Courses
 alias celx="~/Code/Elixir/courses"
 alias cjs="~/Code/JavaScript/courses"
-alias cvue="~/Code/Vue/courses"
 alias crust="~/Code/Rust/courses"
+alias cvue="~/Code/Vue/courses"
 
-### demos
-# alias dem="~/Code/Ember/demos"
+## Code -- Demos
 alias delx="~/Code/Elixir/demos"
 alias djs="~/Code/JavaScript/demos"
-alias dvue="~/Code/Vue/demos"
 alias drust="~/Code/Rust/demos"
+alias dvue="~/Code/Vue/demos"
 
-### projects
-# alias pem="~/Code/Ember/projects/current"
+## Code -- Projects
 alias pelx="~/Code/Elixir/projects/current"
 alias pjs="~/Code/JavaScript/projects/current"
 alias pvue="~/Code/Vue/projects/current"
 alias prust="~/Code/Rust/projects/current"
-
 alias abt="~/Code/JavaScript/projects/current/audiobat"
 
-### books
-alias bjs="~/Code/JavaScript/books"
-alias bvue="~/Code/Vue/books"
-alias belx="~/Code/Elixir/books"
-alias brust="~/Code/Rust/books"
-
-### cyto
+## Code -- Cyto
 alias cyto="~/Code/Work/cyto"
 alias c4="~/Code/Work/cyto-v4"
 
 
-# Apps
-alias v="code ."
-alias mong="mongod --dbpath /usr/local/var/mongodb "
-alias mongsh="mongo --host 127.0.0.1:27017 "
+
+# LANGS --------------------------------------------------- 
+
+## Elixir / Phoenix
+alias ism="iex -S mix"
+alias mps="mix phx.server"
+alias mpn="mix phx.new "
+alias mdg="mix deps.get"
+alias mem="mix ecto.migrate"
+alias megm="mix ecto.gen.migration "
 
 
-
-# NPM
-### native
-alias ni="npm install "
-alias nid="npm install --save-dev "
-alias nu="npm uninstall "
-alias nri="rm -r node_modules && npm install"
-alias nb="npm run build"
-alias ns="npm run serve"
-alias nst="npm run  start"
-alias nd="npm run dev"
-alias nl="npm run lint"
-alias nlf="npm run lint:fix"
-alias nun="npm run unit"
-alias nt="npm run test "
-alias nup="npm update"
-alias ncd="npm-check -su"
-alias ncc="npm cache clean"
-### packages
-alias npr="npm install prettier --dev --exact"
-alias nweb="npm install --save-dev  webpack webpack-dev-server webpack-cli"
+## Python
+alias py="python3 "
 
 
-
-# Yarn
-### native
-alias yi="yarn install "
-alias ya="yarn add "
-alias yad="yarn add --dev "
-alias yr="yarn remove "
-alias yu="yarn upgrade "
-alias yb="yarn build"
-alias ys="yarn serve"
-alias yst="yarn start"
-alias yd="yarn dev"
-alias ydo="yarn dev --open"
-alias yl="yarn lint"
-alias ylf="yarn lint:fix"
-alias yun="yarn unit"
-alias yun="yarn test"
-alias ycc="yarn cache clean"
-alias yupi="yarn upgrade-interactive"
-alias yup="brew upgrade yarn --without-node"
-### packages
-alias ypr="yarn add prettier --dev --exact"
-alias yweb="yarn add --save-dev webpack webpack-dev-server webpack-cli"
+## Ruby
+alias rvmlatest="rvm get stable --autolibs=enable"
 
 
-
-# Node
-alias n="node "
-alias ndm="nodemon "
-alias debugjest="node --inspect --inspect-brk node_modules/jest/bin/jest.js --config .jestrc.json"
-alias debugjestb="node --inspect --inspect-brk node_modules/jest/bin/jest.js"
-alias mocha="./node_modules/mocha/bin mocha "
-alias rrnm="find . -name "node_modules" -exec rm -rf '{}' +"
-
-
-# Webpack
-alias mwjs="mkdir dist && mkdir src && touch dist/index.html && touch src/index.js && touch README.md && touch webpack.config.js" 
+## Rust
+alias rc="rustc "
+alias cn="cargo new"
+alias cnb="cargo new --bin "
+alias cr="cargo run"
+alias cb="cargo build"
+alias cch="cargo check"
+alias cbr="cargo build --release"
+alias cdo="cargo doc --open"
 
 
-
-# JS
-alias esinit="./node_modules/.bin/eslint --init"
-
-
-# Vue / Nuxt
+## Vue
 alias vc="vue create "
 alias vs="vue serve"
-alias vgql="ya vue-apollo graphql apollo-client apollo-link apollo-link-http apollo-link-context apollo-cache-inmemory graphql-tag"
-alias vap="ya eslint-plugin-prettier eslint-config-prettier prettier --dev"
-
-alias nc="create-nuxt-app "
-alias nuxtinit="yarn add babel-eslint eslint eslint-config-prettier eslint-loader eslint-plugin-vue eslint-plugin-prettier prettier --dev"
-alias covue="cd ~/Code/vue"
 alias vb="vue build "
 alias vui="vue ui"
-## Vue Enterprise Boiler
+# alias vgql="yarn add vue-apollo graphql apollo-client apollo-link apollo-link-http apollo-link-context apollo-cache-inmemory graphql-tag"
+# alias vap="yarn add eslint-plugin-prettier eslint-config-prettier prettier --dev"
+### Nuxt
+alias nuxtinit="yarn add babel-eslint eslint eslint-config-prettier eslint-loader eslint-plugin-vue eslint-plugin-prettier prettier --dev"
+alias nc="create-nuxt-app "
+### Vue Enterprise Boiler
 alias ydo="yarn dev --open"
 alias yde2="yarn dev:e2e"
 alias ync="yarn new component "
@@ -161,56 +114,89 @@ alias yne="yarn new e2e "
 
 
 
-# Elixir / Phoenix
-alias ism="iex -S mix"
-alias mps="mix phx.server"
-alias mpn="mix phx.new "
-alias mdg="mix deps.get"
-alias mem="mix ecto.migrate"
-alias megm="mix ecto.gen.migration "
+# APPS ----------------------------------------------------
+
+## Core
+alias v="code-insiders ."
+#alias v="code ."
+
+
+## Node
+alias n="node "
+alias ndm="nodemon "
+### debugging
+alias ndbg="node --inspect --inspect-brk "
+alias ndmdbg="nodemon --inspect --inspect-brk "
+alias debugjest="node --inspect --inspect-brk node_modules/jest/bin/jest.js --config .jestrc.json"
+alias debugjestb="node --inspect --inspect-brk node_modules/jest/bin/jest.js"
+
+
+## NPM
+alias rrnm="find . -name "node_modules" -exec rm -rf '{}' +"
+alias ni="npm install "
+alias nid="npm install --save-dev "
+alias nu="npm uninstall "
+alias nri="rm -r node_modules && npm install"
+alias nb="npm run build"
+alias ns="npm run serve"
+alias nst="npm run start"
+alias nd="npm run dev"
+alias nl="npm run lint"
+alias nlf="npm run lint:fix"
+alias nun="npm run unit"
+alias nt="npm run test "
+alias nup="npm update"
+alias ncd="npm-check -su"
+alias ncc="npm cache clean"
+### NPM -- Packages
+alias npr="npm install prettier --dev --exact"
+alias nweb="npm install --save-dev  webpack webpack-dev-server webpack-cli"
+alias esinit="./node_modules/.bin/eslint --init"
+alias mocha="./node_modules/mocha/bin mocha "
+
+
+## Mongo
+alias mong="mongod --dbpath /usr/local/var/mongodb "
+alias mongsh="mongo --host 127.0.0.1:27017 "
+
+
+## Yarn
+alias yst="yarn start"
+alias yd="yarn dev"
+alias ys="yarn serve"
+alias yl="yarn lint"
+alias ylf="yarn lint:fix"
+alias yun="yarn unit"
+alias yun="yarn test"
+alias ycc="yarn cache clean"
+alias yupi="yarn upgrade-interactive"
+alias yup="brew upgrade yarn --without-node"
+
+
+## Webpack
+alias mwjs="mkdir dist && mkdir src && touch dist/index.html && touch src/index.js && touch README.md && touch webpack.config.js" 
 
 
 
-# Ruby
-alias rvmlatest="rvm get stable --autolibs=enable"
+# NETWORK -------------------------------------------------
 
-
-
-# Rust
-alias rc="rustc "
-alias cn="cargo new"
-alias cnb="cargo new --bin "
-alias cr="cargo run"
-alias cb="cargo build"
-alias cch="cargo check"
-alias cbr="cargo build --release"
-alias cdo="cargo doc --open"
-
-
-# Python
-alias py="python3 "
-
-
-
-# Network
+## Core
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias ipl="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'"
 
-
-
-# Request using GET, POST, etc. method
+## HTTP
+### Request using GET, POST, etc. method
 for METHOD in GET HEAD POST PUT DELETE TRACE OPTIONS; do
   alias "$METHOD"="lwp-request -m '$METHOD'"
 done
 unset METHOD
 
 
-
-# Misc
+# MISC ----------------------------------------------------
 alias al="vi $ZSH/prezto/aliases.zsh"
 alias spoons="vi $ZSH/etc/hammerspoon/readme.md"
 alias hs="http-server"
-alias vdots="code $ZSH"
+alias vdots="code-insiders $ZSH"
 alias hosts="sudo $EDITOR /etc/hosts"
 alias cpssh="pbcopy < ~/.ssh/id_rsa.pub"
 alias his="history"
@@ -223,25 +209,3 @@ alias pwzip="zip -er "
 alias cdel="cd /Volumes/Elements"
 alias setss="defaults write com.apple.screencapture location "
 # alias scrape="~/Library/Python/2.7/lib/python/site-packages/soundscrape/soundscrape.py "
-
-
-
-############### Graveyard ###############
-
-# Docker
-# alias dcu="docker-compose up"
-# alias dockercont="docker exec -t -i autheg_backend_1 /bin/bash"
-# alias dsa="docker stop $(docker ps -q)"
-
-
-# Ember
-# alias e="ember "
-# alias egr="ember g route "
-# alias egc="ember g component "
-# alias egt="ember g template "
-# alias edr="ember d route "
-# alias edc="ember d component "
-# alias edt="ember d template "
-# alias ei="ember install "
-# alias et="ember test "
-# alias es="ember serve"

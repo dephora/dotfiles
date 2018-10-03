@@ -1,0 +1,33 @@
+############### Graveyard ###############
+
+# Docker
+# alias dcu="docker-compose up"
+# alias dockercont="docker exec -t -i autheg_backend_1 /bin/bash"
+# alias dsa="docker stop $(docker ps -q)"
+
+
+# Ember
+# alias e="ember "
+# alias egr="ember g route "
+# alias egc="ember g component "
+# alias egt="ember g template "
+# alias edr="ember d route "
+# alias edc="ember d component "
+# alias edt="ember d template "
+# alias ei="ember install "
+# alias et="ember test "
+# alias es="ember serve"
+
+
+# Yarn
+### native
+# alias yi="yarn install "
+# alias ya="yarn add "
+# alias yad="yarn add --dev "
+# alias yr="yarn remove "
+# alias yu="yarn upgrade "
+# alias yb="yarn build"
+# alias ydo="yarn dev --open"
+### packages
+alias ypr="yarn add prettier --dev --exact"
+alias yweb="yarn add --save-dev webpack webpack-dev-server webpack-cli"

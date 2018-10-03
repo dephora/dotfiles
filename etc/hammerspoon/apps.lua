@@ -26,7 +26,7 @@ hs.hotkey.bind({"alt+shift"}, "d", function() toggleApplication("Dash") end)
 hs.hotkey.bind({"alt+shift"}, "f", function() toggleApplication("Firefox Developer Edition") end)
 hs.hotkey.bind({"alt+shift"}, "g", function() toggleApplication("SourceTree") end)
 hs.hotkey.bind({"alt+shift"}, "n", function() toggleApplication("Google Chrome Canary") end)
-hs.hotkey.bind({"alt+shift"}, "x", function() toggleApplication("Visual Studio Code") end)
+hs.hotkey.bind({"alt+shift"}, "x", function() toggleApplication("Visual Studio Code - Insiders") end)
 hs.hotkey.bind({"alt+shift"}, "z", function() toggleApplication("iTerm") end)
 
 hs.hotkey.bind({"alt+shift"}, "e", function() toggleApplication("Messages") end)
