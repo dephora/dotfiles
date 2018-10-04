@@ -126,9 +126,10 @@ alias v="code-insiders ."
 
 
 # Heroku
-alias=hc="heroku create"
-alias=ho="heroku open"
-alias=hssh="ssh -v git@heroku.com"
+alias hc="heroku create"
+alias ho="heroku open"
+alias hssh="ssh -v git@heroku.com"
+alias gph="git push heroku"
 
 
 ## Node
