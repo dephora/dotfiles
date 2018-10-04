@@ -11,27 +11,27 @@ local function toggleApplication(name)
 end
 
 -- Keybindings are done by keyboard location / name 
-hs.hotkey.bind({"alt+shift"}, "a", function() toggleApplication("Airmail Beta") end)
-hs.hotkey.bind({"alt+shift"}, "b", function() toggleApplication("Calibre") end)
-hs.hotkey.bind({"alt+shift"}, "c", function() toggleApplication("Google Chrome") end)
-hs.hotkey.bind({"alt+shift"}, "i", function() toggleApplication("Finder") end)
-hs.hotkey.bind({"alt+shift"}, "k", function() toggleApplication("Skim") end)
-hs.hotkey.bind({"alt+shift"}, "l", function() toggleApplication("Wunderlist") end)
-hs.hotkey.bind({"alt+shift"}, "m", function() toggleApplication("Macdown") end)
-hs.hotkey.bind({"alt+shift"}, "o", function() toggleApplication("Microsoft Onenote") end)
-hs.hotkey.bind({"alt+shift"}, "p", function() toggleApplication("System Preferences") end)
-hs.hotkey.bind({"alt+shift"}, "s", function() toggleApplication("Safari") end)
+hs.hotkey.bind(altshift, "a", function() toggleApplication("Airmail Beta") end)
+hs.hotkey.bind(altshift, "b", function() toggleApplication("Calibre") end)
+hs.hotkey.bind(altshift, "c", function() toggleApplication("Google Chrome") end)
+hs.hotkey.bind(altshift, "i", function() toggleApplication("Finder") end)
+hs.hotkey.bind(altshift, "k", function() toggleApplication("Skim") end)
+hs.hotkey.bind(altshift, "l", function() toggleApplication("Wunderlist") end)
+hs.hotkey.bind(altshift, "m", function() toggleApplication("Macdown") end)
+hs.hotkey.bind(altshift, "o", function() toggleApplication("Microsoft Onenote") end)
+hs.hotkey.bind(altshift, "p", function() toggleApplication("System Preferences") end)
+hs.hotkey.bind(altshift, "s", function() toggleApplication("Safari") end)
 
-hs.hotkey.bind({"alt+shift"}, "d", function() toggleApplication("Dash") end)
-hs.hotkey.bind({"alt+shift"}, "f", function() toggleApplication("Firefox Developer Edition") end)
-hs.hotkey.bind({"alt+shift"}, "g", function() toggleApplication("SourceTree") end)
-hs.hotkey.bind({"alt+shift"}, "n", function() toggleApplication("Google Chrome Canary") end)
-hs.hotkey.bind({"alt+shift"}, "x", function() toggleApplication("Visual Studio Code - Insiders") end)
-hs.hotkey.bind({"alt+shift"}, "z", function() toggleApplication("iTerm") end)
+hs.hotkey.bind(altshift, "d", function() toggleApplication("Dash") end)
+hs.hotkey.bind(altshift, "f", function() toggleApplication("Firefox Developer Edition") end)
+hs.hotkey.bind(altshift, "g", function() toggleApplication("SourceTree") end)
+hs.hotkey.bind(altshift, "n", function() toggleApplication("Google Chrome Canary") end)
+hs.hotkey.bind(altshift, "x", function() toggleApplication("Visual Studio Code - Insiders") end)
+hs.hotkey.bind(altshift, "z", function() toggleApplication("iTerm") end)
 
-hs.hotkey.bind({"alt+shift"}, "e", function() toggleApplication("Messages") end)
-hs.hotkey.bind({"alt+shift"}, "q", function() toggleApplication("Discord") end)
-hs.hotkey.bind({"alt+shift"}, "w", function() toggleApplication("Whatsapp") end)
+hs.hotkey.bind(altshift, "e", function() toggleApplication("Messages") end)
+hs.hotkey.bind(altshift, "q", function() toggleApplication("Discord") end)
+hs.hotkey.bind(altshift, "w", function() toggleApplication("Whatsapp") end)
 
 -- Toggle spotify if open, if not, launch it and spotifree
 function spotify()
@@ -43,7 +43,7 @@ function spotify()
     toggleApplication("Spotify")
   end
 end
-hs.hotkey.bind({"alt+shift"}, "y", spotify)
+hs.hotkey.bind(altshift, "y", spotify)
 
 -- Close spotifree on spotify exit
 function spotifyWatcher(appName, eventType, appObject)

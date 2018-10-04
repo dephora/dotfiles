@@ -80,20 +80,20 @@ brew tap caskroom/fonts
 
 cask=(
   # Dev -------------------------------
-  caffeine
+  # caffeine
   charles
   cheatsheet
   cyberduck
   dash
   # dbeaver-community
-  graphql-playground
+  graphql-playground 
   # iterm2
   # paw
   # postgres
   postgresql
   postico
   postman
-  prepros
+  # prepros
   sourcetree
   sqlitestudio
   visual-studio-code
@@ -105,12 +105,12 @@ cask=(
   # sketch-toolbox
   # Fonts --------------------------------
   fontbase
-  font-dosis
+  # font-dosis
   font-fira-code
-  font-roboto
+  # font-roboto
   font-hasklig
   font-source-code-pro
-  font-fontawesome
+  # font-fontawesome
   # font-source-sans-pro
   # font-source-serif-pro
   # font-raleway # broken last time I tried it
@@ -131,13 +131,14 @@ cask=(
   discord
   dropbox
   hammerspoon
+  karabiner-elements
   iina
-  macdown
+  # macdown
   # mactex
   sensiblesidebuttons
   soundcloud-downloader
-  skim
-  slack
+  # skim
+  # slack
   # spectacle  # handling with hammerspoon for now
   spotifree
   spotify

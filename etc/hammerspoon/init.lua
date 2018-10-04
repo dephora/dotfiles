@@ -1,4 +1,7 @@
 mash = {"⌘", "⌥", "⌃"}
+ctrlshift = {"ctrl+shift"}
+altshift = {"alt+shift"}
+
 
 require "apps"
 require "grid"
