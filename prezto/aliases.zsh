@@ -20,10 +20,10 @@ alias of="open ."
 
 ## Code -- Base
 alias co="~/Code"
-alias coe="cd ~/Code/elixir"
-alias cojs="cd ~/Code/javascript"
-alias cor="cd ~Code/rust"
-alias cov="cd ~/Code/vue"
+alias coe="cd ~/Code/Elixir"
+alias cojs="cd ~/Code/Javascript"
+alias cor="cd ~/Code/Rust"
+alias cov="cd ~/Code/Vue"
 
 ## Code -- Apps
 alias aelx="~/Code/Elixir/apps"
@@ -54,6 +54,7 @@ alias pelx="~/Code/Elixir/projects/current"
 alias pjs="~/Code/JavaScript/projects/current"
 alias pvue="~/Code/Vue/projects/current"
 alias prust="~/Code/Rust/projects/current"
+## Code -- Projects --- Specific
 alias abt="~/Code/JavaScript/projects/current/audiobat"
 
 ## Code -- Cyto
