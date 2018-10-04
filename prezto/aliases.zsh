@@ -1,4 +1,4 @@
-# CORE ----------------------------------------------------
+# CORE ----------------------------------------------------------------------
 alias cls='clear' # clear screen
 alias rr="rm -rf" # recursive delete
 alias pk="kill -9 " # kill by PID
@@ -6,7 +6,8 @@ alias t="touch"
 
 
 
-# DIRS ----------------------------------------------------
+
+# DIRS ----------------------------------------------------------------------
 
 ## Core
 alias ...="../.."
@@ -63,7 +64,8 @@ alias c4="~/Code/Work/cyto-v4"
 
 
 
-# LANGS --------------------------------------------------- 
+
+# LANGS ---------------------------------------------------------------------
 
 ## Elixir / Phoenix
 alias ism="iex -S mix"
@@ -115,11 +117,18 @@ alias yne="yarn new e2e "
 
 
 
-# APPS ----------------------------------------------------
+
+# APPS ----------------------------------------------------------------------
 
 ## Core
 alias v="code-insiders ."
 #alias v="code ."
+
+
+# Heroku
+alias=hc="heroku create"
+alias=ho="heroku open"
+alias=hssh="ssh -v git@heroku.com"
 
 
 ## Node
@@ -179,7 +188,7 @@ alias mwjs="mkdir dist && mkdir src && touch dist/index.html && touch src/index.
 
 
 
-# NETWORK -------------------------------------------------
+# NETWORK -------------------------------------------------------------------
 
 ## Core
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -193,7 +202,7 @@ done
 unset METHOD
 
 
-# MISC ----------------------------------------------------
+# MISC ----------------------------------------------------------------------
 alias al="vi $ZSH/prezto/aliases.zsh"
 alias sshgen="ssh-keygen -t rsa -b 4096 -C "
 alias sshagent="eval '$(ssh-agent -s)'"
