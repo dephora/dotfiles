@@ -194,6 +194,9 @@ unset METHOD
 
 # MISC ----------------------------------------------------
 alias al="vi $ZSH/prezto/aliases.zsh"
+alias sshgen="ssh-keygen -t rsa -b 4096 -C "
+alias sshagent="eval '$(ssh-agent -s)'"
+alias ssadd="ssh-add -K ~/.ssh/id_rsa"
 alias spoons="vi $ZSH/etc/hammerspoon/readme.md"
 alias hs="http-server"
 alias vdots="code-insiders $ZSH"
