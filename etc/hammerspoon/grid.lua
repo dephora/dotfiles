@@ -11,6 +11,10 @@ hs.hotkey.bind(ctrlshift, "left", function() hs.grid.pushWindowLeft() end)
 hs.hotkey.bind(ctrlshift, "right", function() hs.grid.pushWindowRight() end)
 hs.hotkey.bind(ctrlshift, "up", function() hs.grid.pushWindowUp() end)
 hs.hotkey.bind(ctrlshift, "down", function() hs.grid.pushWindowDown() end)
+hs.hotkey.bind(ctrlshift, "a", function() hs.grid.pushWindowLeft() end)
+hs.hotkey.bind(ctrlshift, "d", function() hs.grid.pushWindowRight() end)
+hs.hotkey.bind(ctrlshift, "w", function() hs.grid.pushWindowUp() end)
+hs.hotkey.bind(ctrlshift, "s", function() hs.grid.pushWindowDown() end)
 
 --- jkhl: resize window
 hs.hotkey.bind(ctrlshift, "j", function() hs.grid.resizeWindowShorter() end)
