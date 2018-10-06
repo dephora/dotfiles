@@ -18,6 +18,7 @@ alias dl="~/Downloads"
 alias work="~/Documents/Work/cyto"
 alias music="~/Music"
 alias of="open ."
+alias shots="/Users/matt/Documents/Screenshots"
 
 ## Code -- Base
 alias co="~/Code"
