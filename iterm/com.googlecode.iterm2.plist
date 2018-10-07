@@ -14,6 +14,8 @@
 	<integer>1</integer>
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
+	<key>ColoredSelectedTabOutlineStrength</key>
+	<real>0.0</real>
 	<key>CopyWithStylesByDefault</key>
 	<true/>
 	<key>Custom Color Presets</key>
@@ -3131,7 +3133,7 @@
 	<key>Default Arrangement Name</key>
 	<string>cyto-web</string>
 	<key>Default Bookmark Guid</key>
-	<string>18C2C363-DEA3-42F8-8365-9480E879093D</string>
+	<string>6E3593BE-6824-4055-B27F-B765C9B8C610</string>
 	<key>DimOnlyText</key>
 	<false/>
 	<key>EnableDivisionView</key>
@@ -3164,8 +3166,8 @@
 	<false/>
 	<key>NSSplitView Subview Frames NSColorPanelSplitView</key>
 	<array>
-		<string>0.000000, 0.000000, 270.000000, 283.000000, NO, NO</string>
-		<string>0.000000, 284.000000, 270.000000, 47.000000, NO, NO</string>
+		<string>0.000000, 0.000000, 270.000000, 247.000000, NO, NO</string>
+		<string>0.000000, 248.000000, 270.000000, 47.000000, NO, NO</string>
 	</array>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
@@ -3204,16 +3206,16 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1159 396 609 401 0 0 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>613 437 928 394 0 0 1920 1057 </string>
+	<string>837 554 796 486 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1920 0 956 1057 1920 0 1920 1057 </string>
+	<string>0 53 956 244 0 0 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
 			<key>ASCII Ligatures</key>
-			<false/>
+			<true/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -9129,26 +9131,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.7686274509803922</real>
+				<real>0.5607843137254902</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.79607843137254897</real>
+				<real>0.3843137254901961</real>
 				<key>Red Component</key>
-				<real>0.50196078431372548</real>
+				<real>0.31764705882352939</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.38039215686274508</real>
+				<real>0.83921568627450982</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.98431372549019602</real>
+				<real>0.43529411764705883</real>
 				<key>Red Component</key>
-				<real>0.89803921568627454</real>
+				<real>0.49803921568627452</real>
 			</dict>
 			<key>Ansi 12 Color</key>
 			<dict>
@@ -9207,26 +9209,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.24313725490196078</real>
+				<real>0.30588235294117649</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.8901960784313725</real>
+				<real>0.89803921568627454</real>
 				<key>Red Component</key>
-				<real>0.68235294117647061</real>
+				<real>0.72941176470588232</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.3803921639919281</real>
+				<real>0.5607843137254902</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.9843137264251709</real>
+				<real>0.53333333333333333</real>
 				<key>Red Component</key>
-				<real>0.89803922176361084</real>
+				<real>0.98431372549019602</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
@@ -9349,17 +9351,17 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.3803921639919281</real>
+				<real>0.9843137264251709</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.9843137264251709</real>
+				<real>0.56891491979422415</real>
 				<key>Red Component</key>
-				<real>0.89803922176361084</real>
+				<real>0.38039216399192805</real>
 			</dict>
 			<key>Bound Hosts</key>
 			<array>
-				<string>/Users/matt/Code/Rust</string>
+				<string>/Users/matt/Code/*</string>
 			</array>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -9746,6 +9748,8 @@
 				<key>Red Component</key>
 				<real>0.29264676570892334</real>
 			</dict>
+			<key>Minimum Contrast</key>
+			<real>0.0</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -9755,7 +9759,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Hasklig-Medium 14</string>
+			<string>Hasklig-Bold 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -9897,13 +9901,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.38039215686274508</real>
+				<real>0.46274509803921571</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.98431372549019602</real>
+				<real>0.49411764705882355</real>
 				<key>Red Component</key>
-				<real>0.89803921568627454</real>
+				<real>1</real>
 			</dict>
 			<key>Ansi 12 Color</key>
 			<dict>
@@ -9975,13 +9979,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.3803921639919281</real>
+				<real>0.46274509803921571</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.9843137264251709</real>
+				<real>0.49411764705882355</real>
 				<key>Red Component</key>
-				<real>0.89803922176361084</real>
+				<real>1</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
@@ -10666,7 +10670,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-10-03T18:25:55Z</date>
+	<date>2018-10-06T14:30:49Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SmartPlacement</key>
@@ -18887,12 +18891,12 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.2.1</string>
+	<string>3.2.3</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
 	<true/>
 	<key>kCPKUseSystemColorPicker</key>
-	<true/>
+	<false/>
 </dict>
 </plist>

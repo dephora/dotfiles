@@ -1,5 +1,5 @@
 # CORE ----------------------------------------------------------------------
-alias cls='clear' # clear screen
+alias c='clear' # clear screen
 alias rr="rm -rf" # recursive delete
 alias pk="kill -9 " # kill by PID
 alias t="touch"
