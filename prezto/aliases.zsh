@@ -56,6 +56,7 @@ alias pelx="~/Code/Elixir/projects/current"
 alias pjs="~/Code/JavaScript/projects/current"
 alias pvue="~/Code/Vue/projects/current"
 alias prust="~/Code/Rust/projects/current"
+
 ## Code -- Projects --- Specific
 alias abt="~/Code/JavaScript/projects/current/audiobat"
 
@@ -77,12 +78,15 @@ alias mem="mix ecto.migrate"
 alias megm="mix ecto.gen.migration "
 
 
+
 ## Python
 alias py="python3 "
 
 
+
 ## Ruby
 alias rvmlatest="rvm get stable --autolibs=enable"
+
 
 
 ## Rust
@@ -94,6 +98,18 @@ alias cb="cargo build"
 alias cch="cargo check"
 alias cbr="cargo build --release"
 alias cdo="cargo doc --open"
+alias ct="cargo test"
+alias ctn="cargo test -- --nocapture"
+alias ct1="cargo test -- --test-threads=1"
+alias ctn1="cargo test -- --test-threads=1 --nocapture"
+alias cti="cargo test -- --ignored"
+alias ctt="cargo test --test "
+
+### Rust -- Web Assembly 
+alias cnn="cargo +nightly new "
+alias ctw="cargo +nightly build --target wasm32-unknown-unknown"
+alias wbg="wasm-bindgen"
+
 
 
 ## Vue
@@ -103,10 +119,12 @@ alias vb="vue build "
 alias vui="vue ui"
 # alias vgql="yarn add vue-apollo graphql apollo-client apollo-link apollo-link-http apollo-link-context apollo-cache-inmemory graphql-tag"
 # alias vap="yarn add eslint-plugin-prettier eslint-config-prettier prettier --dev"
-### Nuxt
+
+### Vue --  Nuxt
 alias nuxtinit="yarn add babel-eslint eslint eslint-config-prettier eslint-loader eslint-plugin-vue eslint-plugin-prettier prettier --dev"
 alias nc="create-nuxt-app "
-### Vue Enterprise Boiler
+
+### Vue -- Vue Enterprise Boiler
 alias ydo="yarn dev --open"
 alias yde2="yarn dev:e2e"
 alias ync="yarn new component "
@@ -126,21 +144,25 @@ alias v="code-insiders ."
 #alias v="code ."
 
 
-# Heroku
+
+## Heroku
 alias hc="heroku create"
 alias ho="heroku open"
 alias hssh="ssh -v git@heroku.com"
 alias gph="git push heroku"
 
 
+
 ## Node
 alias n="node "
 alias ndm="nodemon "
-### debugging
+
+### Node -- Debugging
 alias ndbg="node --inspect --inspect-brk "
 alias ndmdbg="nodemon --inspect --inspect-brk "
 alias debugjest="node --inspect --inspect-brk node_modules/jest/bin/jest.js --config .jestrc.json"
 alias debugjestb="node --inspect --inspect-brk node_modules/jest/bin/jest.js"
+
 
 
 ## NPM
@@ -161,6 +183,7 @@ alias ntw="npm run test-watch"
 alias nup="npm update"
 alias ncd="npm-check -su"
 alias ncc="npm cache clean"
+
 ### NPM -- Packages
 alias npr="npm install prettier --dev --exact"
 alias nweb="npm install --save-dev  webpack webpack-dev-server webpack-cli"
@@ -168,9 +191,11 @@ alias esinit="./node_modules/.bin/eslint --init"
 alias mocha="./node_modules/mocha/bin mocha "
 
 
+
 ## Mongo
 alias mong="mongod --dbpath /usr/local/var/mongodb "
 alias mongsh="mongo --host 127.0.0.1:27017 "
+
 
 
 ## Yarn
@@ -186,8 +211,10 @@ alias yupi="yarn upgrade-interactive"
 alias yup="brew upgrade yarn --without-node"
 
 
+
 ## Webpack
 alias mwjs="mkdir dist && mkdir src && touch dist/index.html && touch src/index.js && touch README.md && touch webpack.config.js" 
+
 
 
 
@@ -197,12 +224,17 @@ alias mwjs="mkdir dist && mkdir src && touch dist/index.html && touch src/index.
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias ipl="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'"
 
+
+
 ## HTTP
-### Request using GET, POST, etc. method
+
+### HTTP -- Request using GET, POST, etc. method
 for METHOD in GET HEAD POST PUT DELETE TRACE OPTIONS; do
   alias "$METHOD"="lwp-request -m '$METHOD'"
 done
 unset METHOD
+
+
 
 
 # MISC ----------------------------------------------------------------------
