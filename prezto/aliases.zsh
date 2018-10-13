@@ -91,6 +91,9 @@ alias rvmlatest="rvm get stable --autolibs=enable"
 
 ## Rust
 alias rc="rustc "
+alias rus="rustup show"
+alias rusp="rustup self update"
+alias rup="rustup update"
 alias cn="cargo new"
 alias cnb="cargo new --bin "
 alias cr="cargo run"
@@ -109,6 +112,12 @@ alias ctt="cargo test --test "
 alias cnn="cargo +nightly new "
 alias ctw="cargo +nightly build --target wasm32-unknown-unknown"
 alias wbg="wasm-bindgen"
+### Rust -- Web Assembly -- wasm-pack
+alias cgw="cargo generate --git https://github.com/rustwasm/wasm-pack-template"
+alias wpb="wasm-pack build"
+alias waw="npm init wasm-app www"
+### Rust - Web Assembly -- Templates
+alias rwp="npm init rust-webpack"
 
 
 
