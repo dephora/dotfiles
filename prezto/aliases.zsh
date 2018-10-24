@@ -3,8 +3,14 @@ alias c='clear' # clear screen
 alias rr="rm -rf" # recursive delete
 alias pk="kill -9 " # kill by PID
 alias t="touch"
+# alias l="exa "
+alias ls="exa "
+alias lst="exa -T"
+alias lt1="exa --tree -level=1"
+alias lt2="exa --tree --level=2"
+alias lg="exa --long --git"
 
-
+alias ll="exa --header --long --list-dirs"
 
 
 # DIRS ----------------------------------------------------------------------
@@ -202,7 +208,8 @@ alias mocha="./node_modules/mocha/bin mocha "
 
 
 ## Mongo
-alias mong="mongod --dbpath /usr/local/var/mongodb "
+#alias mong="mongod --dbpath /usr/local/var/mongodb "
+alias mong="mongod --dbpath ~/mongo-data"
 alias mongsh="mongo --host 127.0.0.1:27017 "
 
 
@@ -242,6 +249,15 @@ for METHOD in GET HEAD POST PUT DELETE TRACE OPTIONS; do
   alias "$METHOD"="lwp-request -m '$METHOD'"
 done
 unset METHOD
+
+
+
+
+# IMAGES --------------------------------------------------------------------
+
+alias ca="convert -append"
+alias capng="convert -append *.png out.png"
+alias cajpg="convert -append *.jpg out.jpg"
 
 
 
