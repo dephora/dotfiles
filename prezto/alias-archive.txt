@@ -1,5 +1,66 @@
 ############### Graveyard ###############
 
+# DIRS ----------------------------------------------------------------------
+
+
+## Code -- Apps
+alias aelx="~/Code/Elixir/apps"
+alias ajs="~/Code/JavaScript/apps"
+alias arust="~/Code/Rust/apps"
+alias avue="~/Code/Vue/apps"
+
+### Code -- Books
+alias belx="~/Code/Elixir/books"
+alias bjs="~/Code/JavaScript/books"
+alias brust="~/Code/Rust/books"
+alias bvue="~/Code/Vue/books"
+
+## Code -- Courses
+alias celx="~/Code/Elixir/courses"
+alias cjs="~/Code/JavaScript/courses"
+alias crust="~/Code/Rust/courses"
+alias cvue="~/Code/Vue/courses"
+
+## Code -- Demos
+alias delx="~/Code/Elixir/demos"
+alias djs="~/Code/JavaScript/demos"
+alias drust="~/Code/Rust/demos"
+alias dvue="~/Code/Vue/demos"
+
+## Code -- Projects
+alias pelx="~/Code/Elixir/projects/current"
+alias pjs="~/Code/JavaScript/projects/current"
+alias pvue="~/Code/Vue/projects/current"
+alias prust="~/Code/Rust/projects/current"
+
+
+
+# LANGS ---------------------------------------------------------------------
+
+## Vue
+alias vc="vue create "
+alias vs="vue serve"
+alias vb="vue build "
+alias vui="vue ui"
+# alias vgql="yarn add vue-apollo graphql apollo-client apollo-link apollo-link-http apollo-link-context apollo-cache-inmemory graphql-tag"
+# alias vap="yarn add eslint-plugin-prettier eslint-config-prettier prettier --dev"
+
+### Vue --  Nuxt
+alias nuxtinit="yarn add babel-eslint eslint eslint-config-prettier eslint-loader eslint-plugin-vue eslint-plugin-prettier prettier --dev"
+alias nc="create-nuxt-app "
+
+### Vue -- Vue Enterprise Boiler
+alias ydo="yarn dev --open"
+alias yde2="yarn dev:e2e"
+alias ync="yarn new component "
+alias ynv="yarn new view "
+alias ynl="yarn new layout "
+alias ynm="yarn new module "
+alias ynu="yarn new util "
+alias yne="yarn new e2e "
+
+
+
 # Docker
 # alias dcu="docker-compose up"
 # alias dockercont="docker exec -t -i autheg_backend_1 /bin/bash"
