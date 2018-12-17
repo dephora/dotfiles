@@ -65,6 +65,12 @@ alias py="python3 "
 
 ## Reason
 alias rein="bsb -init first-project -theme basic-reason"
+# refmt src/Functions.re > src/ReformattedFunctions.re
+
+# bsc -bs-re-out \
+  # lib/bs/src/Annotations-Functions.cmi  > \
+  # src/Annotations.rei
+
 # npm run start
 # npm run build
 # node src/...
