@@ -18,6 +18,7 @@ alias ll="exa --header --long --list-dirs"
 ## Core
 alias ...="../.."
 alias ....="../../.."
+alias ulb="cd /usr/local/bin"
 alias of="open ."
 alias dots="~/.dotfiles"
 alias docs="~/Documents"
@@ -62,6 +63,11 @@ alias megm="mix ecto.gen.migration "
 alias py="python3 "
 
 
+## Reason
+alias rein="bsb -init first-project -theme basic-reason"
+# npm run start
+# npm run build
+# node src/...
 
 ## Ruby
 alias rvmlatest="rvm get stable --autolibs=enable"
