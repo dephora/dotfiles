@@ -65,6 +65,7 @@ alias py="python3 "
 
 ## Reason
 alias rein="bsb -init first-project -theme basic-reason"
+alias repar="parcel build src/index.html --public-url ./ --no-minify"
 # refmt src/Functions.re > src/ReformattedFunctions.re
 
 # bsc -bs-re-out \
@@ -117,7 +118,7 @@ alias rwp="npm init rust-webpack"
 # APPS ----------------------------------------------------------------------
 
 ## Core
-alias v="code-insiders ."
+alias v="code ."
 #alias v="code ."
 
 
@@ -229,7 +230,7 @@ alias cajpg="convert -append *.jpg out.jpg"
 
 # MISC ----------------------------------------------------------------------
 alias al="vi $ZSH/prezto/aliases.zsh"
-alias vdots="code-insiders $ZSH"
+alias vdots="code $ZSH"
 alias sshgen="ssh-keygen -t rsa -b 4096 -C "
 # alias sshagent="eval '$(ssh-agent -s)'"
 # alias sshl = "ssh-add -l"
