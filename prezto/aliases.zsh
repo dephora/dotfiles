@@ -61,6 +61,16 @@ alias megm="mix ecto.gen.migration "
 
 ## Python
 alias py="python3 "
+alias pip="pip3"
+alias pipi="pip3 install"
+alias pipir="pip3 install -r requirements.txt"
+# alias ve="python3 -m venv .venv"
+alias vcr="virtualenv -p python3 "
+# alias vact="source .venv/bin/activate"
+alias vact="source bin/activate"
+alias vdeact="deactivate"
+alias vrm="rm -rf .venv"
+
 
 
 ## Reason
@@ -244,8 +254,6 @@ alias quit="exit"
 alias week="date +%V"
 alias speedtest="wget -O /Code/null http://speed.transip.nl/100mb.bin"
 alias ymp3="youtube-dl -i --extract-audio --audio-format mp3 --audio-quality 0 "
-# alias scrape="~/Code/Libs/SoundScrape/soundscrape/soundscrape.py "
 alias pwzip="zip -er "
 alias cdel="cd /Volumes/Elements"
 alias setss="defaults write com.apple.screencapture location "
-# alias scrape="~/Library/Python/2.7/lib/python/site-packages/soundscrape/soundscrape.py "

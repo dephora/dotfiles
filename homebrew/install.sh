@@ -50,7 +50,7 @@ apps=(
   ssh-copy-id
   tree
   unar
-  vips
+  # vips
   wget
   wifi-password
   youtube-dl

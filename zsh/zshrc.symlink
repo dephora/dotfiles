@@ -50,3 +50,7 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 # tabtab source for electron-forge package
 # uninstall by removing these lines or running `tabtab uninstall electron-forge`
 [[ -f /Users/matt/.nvm/versions/node/v9.10.0/lib/node_modules/electron-forge/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /Users/matt/.nvm/versions/node/v9.10.0/lib/node_modules/electron-forge/node_modules/tabtab/.completions/electron-forge.zsh
+
+gpip(){
+   PIP_REQUIRE_VIRTUALENV="0" pip3 "$@"
+}

@@ -35,8 +35,7 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'homebrew' \
   'osx' \
-  'ruby' \
-  'rails' \
+  'python' \
   'git' \
   'syntax-highlighting' \
   'history-substring-search' \
