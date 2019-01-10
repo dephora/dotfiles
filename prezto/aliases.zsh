@@ -74,17 +74,20 @@ alias vrm="rm -rf .venv"
 
 
 ## Reason
-alias rein="bsb -init first-project -theme basic-reason"
+alias rein="bsb -init my-app -theme basic-reason"
 alias repar="parcel build src/index.html --public-url ./ --no-minify"
+# converts ocaml code into reason
+alias mlre="pbpaste | refmt --parse ml --print re --interface false | pbcopy"
+# converts reason code into ocaml
+alias reml="pbpaste | refmt --parse re --print ml --interface false | pbcopy"
 # refmt src/Functions.re > src/ReformattedFunctions.re
 
 # bsc -bs-re-out \
   # lib/bs/src/Annotations-Functions.cmi  > \
   # src/Annotations.rei
 
-# npm run start
-# npm run build
-# node src/...
+alias reapollo="npm install -S reason-apollo react-apollo apollo-client apollo-cache-inmemory apollo-link apollo-link-context apollo-link-error apollo-link-http graphql graphql-tag apollo-link-ws apollo-upload-client subscriptions-transport-ws"
+
 
 ## Ruby
 alias rvmlatest="rvm get stable --autolibs=enable"

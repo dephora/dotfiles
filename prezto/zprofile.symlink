@@ -75,10 +75,10 @@ if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
 
-# if (( $+commands[rbenv] ))
-# then
-#   eval "$(rbenv init -)"
-# fi
+#if (( $+commands[rbenv] ))
+#then
+#  eval "$(rbenv init -)"
+#fi
 #export ANDROID_HOME=/usr/local/share/android-sdk
 #export JAVA_HOME=/Library/Java/Home
 

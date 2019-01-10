@@ -35,13 +35,13 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'homebrew' \
   'osx' \
-  'ruby' \
   'python' \
   'git' \
+  'docker' \
   'syntax-highlighting' \
   'history-substring-search' \
+  'autosuggestions' \
   'prompt'
-
 
 #
 # Editor
