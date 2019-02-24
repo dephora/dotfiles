@@ -54,3 +54,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 gpip(){
    PIP_REQUIRE_VIRTUALENV="0" pip3 "$@"
 }
+
+source ~/Code/Tooling/emsdk/emsdk_env.sh > /dev/null

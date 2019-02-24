@@ -260,3 +260,9 @@ alias ymp3="youtube-dl -i --extract-audio --audio-format mp3 --audio-quality 0 "
 alias pwzip="zip -er "
 alias cdel="cd /Volumes/Elements"
 alias setss="defaults write com.apple.screencapture location "
+alias rac="open /Applications/Racket v7.1/DrRacket.app/Contents/MacOS DrRacket"
+
+
+
+# NOTES ----------------------------------------------------------------------
+# curl -o google.html -L google.com
